@@ -1,0 +1,46 @@
+標的	設計案	疾患焦点	革新性	biology	安全性	開発性	抗体必然性	バイオマーカー適合	競合成功時に残るか	推奨度	主要中止基準
+IGHV4-34_BCR	blocking抗体	SLE/LN	3	3	3	3	中	高	可能性あり	中-低	BCR活性化抑制なし
+IGHV4-34_BCR	agonist抗体	SLE/LN	4	3	2	2	高	高	可能性あり	中	逆活性化またはanergyなし
+IGHV4-34_BCR	Fc-silent抗体	SLE/LN	3	3	4	4	中	高	可能性あり	中	結合以外の機能なし
+IGHV4-34_BCR	Fc強化抗体	SLE/LN	4	4	2	3	高	高	残る	中-高	IGHV4-34陰性B細胞との選択性不足
+IGHV4-34_BCR	BsAb	SLE/LN	5	4	2	3	高	高	残る	高	CRSまたはbystander killing
+IGHV4-34_BCR	ADC	SLE/LN	4	3	2	2	高	高	可能性あり	中	internalization不足またはpayload毒性
+IGHV4-34_BCR	masked抗体	SLE/LN	5	3	3	2	高	高	残る	中-高	疾患選択的unmaskなし
+IGHV4-34_BCR	pH依存recycling抗体	SLE/LN	3	3	3	3	中	高	可能性あり	中	抗原シンク改善なし
+FCRL4_CD22	blocking抗体	Sjögren	2	2	3	3	低	中	可能性あり	低	FCRL4機能不明
+FCRL4_CD22	agonist抗体	Sjögren	4	3	3	2	高	高	可能性あり	中	抑制なし/活性化
+FCRL4_CD22	Fc-silent抗体	Sjögren	4	3	4	3	高	高	残る	高	Fc effector必須
+FCRL4_CD22	Fc強化抗体	Sjögren	3	3	2	3	中	高	可能性あり	中	粘膜記憶B細胞安全域なし
+FCRL4_CD22	BsAb	Sjögren	5	4	3	3	高	高	残る	高	anti-CD22単独を超えない
+FCRL4_CD22	ADC	Sjögren	3	2	2	2	中	中	可能性あり	低-中	protective mucosal B細胞毒性
+FCRL4_CD22	masked抗体	Sjögren	4	3	3	2	高	高	可能性あり	中	病変選択的活性化なし
+FCRL4_CD22	pH依存recycling抗体	Sjögren	2	2	3	3	低	低	残らない	低	可溶性シンクなし
+FCRL4_MONO	Fc-silent agonist抗体	Sjögren/RA	4	3	4	4	高	高	残る	中-高	FCRL4 ligationでTLR/Ig産生が増える
+FCRL4_MONO	Fc-active/Fc-tuned抗体	Sjögren/RA	4	4	2	4	高	高	残る	中-高	正常粘膜B細胞毒性または広範depletion
+FCRL4_MONO	neutral/non-blocking抗体	Sjögren/RA	3	3	4	4	中	高	可能性あり	中	結合以外の機能なし
+FCRL4_MONO	blocking抗体	Sjögren/RA	3	2	2	3	中	中	可能性あり	低-中	内因性FCRL4抑制解除で悪化
+FCRL4_MONO	ADC	Sjögren/MALT/RA	3	3	1	2	中	高	可能性あり	低-中	正常粘膜B細胞毒性またはinternalization不足
+CXCL13	blocking抗体	Sjögren/LN/AE	4	4	3	4	高	高	残る	高	chemotaxis/explant効果なし
+CXCL13	agonist抗体	該当なし	1	1	1	1	低	低	残らない	低	agonismが出る
+CXCL13	Fc-silent抗体	Sjögren/LN/AE	3	4	4	4	中	高	可能性あり	中	PK/potency悪化
+CXCL13	Fc強化抗体	該当なし	1	1	1	1	低	低	残らない	低	免疫複合体活性化
+CXCL13	BsAb	Sjögren/LN/AE	3	3	2	2	中	高	可能性あり	中-低	単剤を超えない
+CXCL13	ADC	該当なし	1	1	1	1	低	低	残らない	低	選択的internalizing cellなし
+CXCL13	masked抗体	Sjögren/LN/AE	4	3	3	2	中	高	可能性あり	中	病変選択的unmaskなし
+CXCL13	pH依存recycling抗体	Sjögren/LN/AE	5	4	3	3	高	高	残る	高	通常IgG超えず
+CD72	blocking抗体	SLE/LN	1	1	2	3	低	中	残らない	低	B細胞活性化が悪化
+CD72	agonist抗体	SLE/LN	5	3	3	2	高	中	残る	高	SHP-1/抑制signalなし
+CD72	Fc-silent抗体	SLE/LN	5	3	4	3	高	中	残る	高	Fc crosslink依存
+CD72	Fc強化抗体	SLE/LN	2	2	2	3	低	低	残らない	低	広範depletion
+CD72	BsAb	SLE/LN	5	3	3	2	高	高	残る	中-高	mono agonistを超えない
+CD72	ADC	SLE/LN	1	2	1	2	低	低	残らない	低	正常B細胞毒性
+CD72	masked抗体	SLE/LN	4	3	3	2	中	中	可能性あり	中	病変選択的agonismなし
+CD72	pH依存recycling抗体	SLE/LN	2	2	3	3	低	低	残らない	低	receptor sinkなし
+CD38_BCMA	blocking抗体	MN/AAV/AE	2	3	3	3	中	高	可能性あり	低-中	自己抗体低下なし
+CD38_BCMA	agonist抗体	該当なし	1	1	1	1	低	低	残らない	低	形質細胞生存促進
+CD38_BCMA	Fc-silent抗体	MN/AAV/AE	2	2	4	3	中	高	可能性あり	低-中	depletion必須
+CD38_BCMA	Fc強化抗体	MN/AAV/AE	3	5	2	3	高	高	可能性あり	中	病的/防御的PC安全域なし
+CD38_BCMA	BsAb	MN/AAV/AE	4	5	1	2	高	高	可能性あり	中-高	CRSまたはTIなし
+CD38_BCMA	ADC	MN/AAV/AE	3	4	1	2	高	高	可能性あり	中-低	骨髄/payload毒性
+CD38_BCMA	masked抗体	MN/AAV/AE	4	4	2	2	高	高	可能性あり	中-高	mask safety marginなし
+CD38_BCMA	pH依存recycling抗体	MN/AAV/AE	3	4	2	3	中	高	可能性あり	中	soluble BCMA/occupancy利点なし

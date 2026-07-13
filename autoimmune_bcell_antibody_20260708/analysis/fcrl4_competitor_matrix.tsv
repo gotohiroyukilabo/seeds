@@ -1,0 +1,15 @@
+分類	標的	競合/資産	企業/実施者	モダリティ	疾患/用途	公開ステータス	Proposal 2への脅威度	解釈	主なリンク
+直接競合	FcRL4/FCRL4/CD307d	公開臨床資産なし	不明	抗体/BsAb/ADC/CAR-T	自己免疫/腫瘍	ClinicalTrials.govでFCRL4/FcRL4/FCRH4/FcRH4/CD307dは0件	低	公開臨床競合は空白。ただしIP/FTOは未評価。	https://clinicaltrials.gov/search?term=FCRL4
+直接比較候補	FcRL4	anti-FcRL4単独抗体	自社で作るべき比較品	Fc-silent agonist、non-blocking anchor、Fc-active/Fc-tuned	Sjögren病変組織B細胞	公開臨床なし	高	競合というよりProposal 2の必須benchmark。BsAbが単独を超えなければ単独抗体へpivot。	../evidence/papers/proposal_2_anti_FCRL4_monotherapy_comparator.md
+病理/診断競合	IRTA1/FcRL4	IRTA1 IHC病理マーカー	病理/研究領域	IHC抗体	MZL/MALT lymphoma診断	複数論文、NCT06424379は病理・分子解析	中	治療薬競合ではないが、組織診断・抗体クローン・バイオマーカー空間では先行。	https://pubmed.ncbi.nlm.nih.gov/22716304/
+病理/診断競合	IRTA1/MNDA	IRTA1 + MNDA診断	病理/研究領域	IHC	Marginal zone lymphoma鑑別	論文あり	中	FcRL4/IRTA1を患者選択に使う際の既存ノウハウ。治療epitopeとは別。	https://pubmed.ncbi.nlm.nih.gov/30346478/
+病理/診断競合	IRTA1	部位依存MALT lymphoma発現	病理/研究領域	IHC	MALT lymphoma	2025論文あり	中	唾液腺以外へ外挿する時に、組織ごとの発現確認が必須。	https://pubmed.ncbi.nlm.nih.gov/40587389/
+隣接競合	FCRL5/FcRH5 + CD3	Cevostamab/RO7187797/BFCR4350A	Genentech/Roche	BsAb、T-cell engager	多発性骨髄腫、SLE with/without LN	MMでPhase I/II、SLE/LN Phase Ib予定	高	FCRL familyの自己免疫参入。直接標的は別だが、社内/市場の注目を集める。FcRL4案はtissue silencerとして差別化。	https://clinicaltrials.gov/study/NCT07629583
+隣接競合	FCRL5/FcRH5	Cevostamab MM program	Genentech/Roche	BsAb、T-cell engager	R/R multiple myeloma	NCT03275103 completed、NCT04910568/NCT05535244 active	中	FCRL family druggabilityとBsAb実装の先行事例。自己免疫直接競合ではない。	https://clinicaltrials.gov/study/NCT03275103
+隣接競合	FCRL5	anti-FcRL5 CAR-T	Xuzhou Medical University	CAR-T	R/R multiple myeloma	Recruiting、Phase I/II	低-中	FCRL5細胞療法の先行。自己免疫では過剰だが、FCRL family標的化の広がりを示す。	https://clinicaltrials.gov/study/NCT06196255
+隣接競合	BCMA + FCRL5	anti-BCMA/FcRL5 CAR-T	Xuzhou Medical University	CAR-T	R/R multiple myeloma	Recruiting、Phase I/II	低-中	FCRL5が複合B-lineage標的として使われている。FcRL4/CD22設計の直接競合ではない。	https://clinicaltrials.gov/study/NCT06759181
+隣接競合	FcRH5	V001-FcRH5 in vivo CAR-T	不明/platform study	In vivo CAR-T	Advanced malignant tumors	Early Phase 1 recruiting	低	FcRH5 armがplatform化。FCRL family標的の技術展開としてwatch。	https://clinicaltrials.gov/study/NCT07395479
+疾患内間接競合	CD22	Epratuzumab	旧UCB/Immunomedics等	抗CD22 mAb	SLE	Phase III失敗	中	CD22単独失敗の参照例。Proposal 2はFCRL4 gate、dual brake、患者選択で差別化する必要。	https://doi.org/10.1002/art.39856
+疾患内間接競合	BAFF/APRIL/BAFF-R	BAFF/APRIL軸薬剤	複数	抗体/融合タンパク質	Sjögren/SLE等	臨床開発あり	中	生存因子を広く落とす競合。FcRL4案は組織B細胞stateの反応性を直接下げる設計。	../outputs/seed_proposal_2.md
+疾患内間接競合	CD40L/Tfh-B axis	CD40L阻害薬	複数	抗体/融合タンパク質	Sjögren等	臨床開発あり	中	T-B help上流の競合。FcRL4案はB細胞側の病変stateを狙う。	../outputs/seed_proposal_2.md
+疾患内間接競合	FcRn	FcRn阻害薬	複数	抗体	自己抗体疾患	承認/臨床開発あり	低-中	自己抗体IgG低下は競合するが、組織B細胞ニッチやIgA/RF/cryoglobulin軸とは異なる。	../outputs/seed_proposal_2.md

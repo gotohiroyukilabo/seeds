@@ -1,0 +1,11 @@
+疾患	B細胞依存性が高い患者集団	標的候補	抗体/モダリティ仮説	根拠	懸念	競合密度	患者選択バイオマーカー
+SLE / ループス腎炎	9G4/IGHV4-34高値、形質芽細胞高値、IFN高値、腎内B細胞浸潤	IGHV4-34_BCR; CD72; CD22; CXCL13; IL21R; CD38/BCMA	IGHV4-34 x CD3/CD16a有限回engager、CD72 agonist、pH-recycling anti-CXCL13	CAR-T remission、2026年IGHV4-34 CAR-T前臨床、SLE BCR/形質芽細胞biology	CRS、標的選択性不足なら汎B細胞除去化、腎endpointノイズ	高。ただしIGHV4-34/CD72は比較的低い	9G4抗体、BCR sequencing、形質芽細胞、抗dsDNA、補体、尿中CXCL13
+Sjögren病	異所性リンパ組織/腺内B細胞高値、B-cell-high systemic axis連動患者	FCRL4; CD22; CXCL13; BAFFR; CD40L; IL21R	抗FCRL4単独Fc-silent/Fc-tuned、FCRL4 x CD22 Fc-silent tissue B-cell silencer、anti-CXCL13ニッチ遮断	唾液腺B細胞ニッチ、FcRL4+腺内B細胞pathogenic signature、BAFF/CXCL13/Tfh biology、rituximab mixed history	FCRL4 causality不明、生検負担、sicca endpointが遅い、抗FCRL4で逆活性化、腺外症状がFcRL4+腺内B細胞と連動しない可能性	中-高。ただしFCRL4は低い	CXCL13、唾液腺FCRL4/IRTA1、focus score、RF、低C4、高IgG、cryoglobulin、ESSDAI domain
+IgG4関連疾患	再燃性・形質芽細胞高値	CD19; FCGR2B; CD38; BCMA; CXCL13	B細胞resetのbenchmark。CD19 x FCGR2B後追いは避ける	inebilizumab承認、obexelimab開発、形質芽細胞biology	CD19/CD19xFCGR2Bが混雑、感染/低Ig	高	形質芽細胞、IgG4、臓器flare、CD19+ plasmablast kinetics
+ANCA関連血管炎	PR3/MPO ANCA再上昇、B細胞再構成後再燃	CD19; CD38; BCMA; BAFF/APRIL; CXCL13	ANCA再出現時の有限形質細胞/形質芽細胞reset	rituximabがB細胞関与を検証、再燃は残る	深いdepletionの感染リスク、ANCA titerの限界	中-高	PR3/MPO、B細胞再構成phenotype、形質芽細胞、IgG
+自己免疫性水疱症	自己抗体残存/再燃性pemphigusまたはBP	CD19; CD20; CD38; BCMA; FcRn; BAFF/APRIL	形質細胞resetまたは将来の自己抗原/BCR選択的depletion	病原性自己抗体とrituximab反応	疾患heterogeneity、高齢BP安全性、FcRn/CD20競合	中-高	DSG1/3、BP180/230、自己反応性BCR、IgG subclass
+重症筋無力症	FcRn/補体不十分またはMuSK/AChR難治	CD19; CD20; CD38; BCMA; FcRn	主にbenchmark。clone-selective BCRがあれば新規性あり	FcRn/補体/CD19の臨床検証	非常に混雑、慢性感染/費用/総IgG低下	高	AChR/MuSK/LRP4、IgG subclass、既存薬反応性
+自己免疫性血球減少症	ステロイド/rituximab/FcRn難治の自己抗体疾患	CD72; CD22; CD19/FCGR2B; CD38; BCMA	B細胞抑制チェックポイントagonist。obexelimab後追いは避ける	自己抗体病態、obexelimab/FcRn開発	自己抗体特異性が不明瞭、脾臓ニッチが難しい	中-高	DAT、IgG subclass、形質芽細胞、脾臓B細胞指標
+原発性膜性腎症	抗PLA2R高値の再発/難治	CD38; BCMA; CD19; BAFF/APRIL; CXCL13	形質細胞resetの薬力学検証疾患	抗PLA2Rは強いバイオマーカー、B細胞治療実績	安全性 vs rituximab、腎endpoint遅い	中	抗PLA2R/THSD7A、蛋白尿、B細胞/形質芽細胞
+自己免疫性脳炎	CSF CXCL13/形質芽細胞高値、rituximab難治	CXCL13; CD19; CD38; BCMA; IL21R	CSF B細胞ニッチ遮断または有限形質細胞reset	自己抗体疾患、髄腔内B細胞biology	CNS移行、希少疾患試験、安全性	低-中	CSF CXCL13、自己抗体、髄腔内IgG、再燃歴
+全身性強皮症B細胞活性化サブセット	CXCL13/Tfh/B細胞高値の早期炎症性diffuse SSc	CXCL13; IL21R; CD19; BAFF/APRIL; CD40L	バイオマーカー選択anti-CXCL13によるB細胞ニッチ崩壊	B細胞signature、線維化未充足	causality不明、線維化不可逆、endpoint遅い	中	CXCL13、皮膚transcriptome、自己抗体、早期diffuse

@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "c53b6c69e9d8abef",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba148885b4c53e54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c949bdb788a5eab8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "autoimmune_bcell_antibody_20260708/evidence/papers/proposal_2_pharmacology_antibody_references.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "proposal_2_pharmacology_antibody_references"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f93729c1a484fd55",
+    "type": "split",
+    "children": [
+      {
+        "id": "77b7842545554f8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1d31c3afed7a911",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "ab49cb0e373b5518",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "1f368d580e6ca3d4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2f58184916de11bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "591af0b48c629363",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "746a138795efe5ca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "autoimmune_bcell_antibody_20260708/evidence/papers/proposal_2_pharmacology_antibody_references.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "proposal_2_pharmacology_antibody_referencesへのバックリンク"
+            }
+          },
+          {
+            "id": "ef80a48260cb4a33",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "autoimmune_bcell_antibody_20260708/evidence/papers/proposal_2_pharmacology_antibody_references.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "proposal_2_pharmacology_antibody_referencesからのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "41251be7973c3801",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "92194ab0ac022e0d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "54978bc555bd12c2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "autoimmune_bcell_antibody_20260708/evidence/papers/proposal_2_pharmacology_antibody_references.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "proposal_2_pharmacology_antibody_referencesのアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:新規ベースを作成": false
+    }
+  },
+  "active": "c949bdb788a5eab8",
+  "lastOpenFiles": [
+    "autoimmune_bcell_antibody_20260708/analysis/fcrl4_competitor_matrix.tsv",
+    "autoimmune_bcell_antibody_20260708/evidence/competitive_landscape/FCRL4_competitor_landscape.md",
+    "autoimmune_bcell_antibody_20260708/evidence/competitive_landscape",
+    "autoimmune_bcell_antibody_20260708/evidence/papers/proposal_2_anti_FCRL4_monotherapy_comparator.md",
+    "autoimmune_bcell_antibody_20260708/analysis/fcrl4_indication_expansion_matrix.tsv",
+    "autoimmune_bcell_antibody_20260708/disease_landscape/rheumatoid_arthritis_fcrl4_expansion.md",
+    "autoimmune_bcell_antibody_20260708/evidence/papers/proposal_2_FCRL4_extraglandular_and_indication_expansion.md",
+    "autoimmune_bcell_antibody_20260708/evidence/papers/proposal_2_FCRL4_BCR_suppression.md",
+    "autoimmune_bcell_antibody_20260708/for_me/proposal_2_detailed_report.md",
+    "autoimmune_bcell_antibody_20260708/evidence/papers/proposal_2_pharmacology_antibody_references.md",
+    "autoimmune_bcell_antibody_20260708/evidence/papers",
+    "autoimmune_bcell_antibody_20260708/outputs/seed_proposal_2.md",
+    "autoimmune_bcell_antibody_20260708/for_me/proposal_1_detailed_report.md",
+    "autoimmune_bcell_antibody_20260708/evidence/clinical_trials/FCRL4_CD22_clinical_history.md",
+    "autoimmune_bcell_antibody_20260708/outputs/executive_summary.md",
+    "autoimmune_bcell_antibody_20260708/outputs/seed_proposal_1.md",
+    "autoimmune_bcell_antibody_20260708/evidence/clinical_trials/CXCL13_clinical_history.md",
+    "autoimmune_bcell_antibody_20260708/evidence/clinical_trials/CD72_clinical_history.md",
+    "autoimmune_bcell_antibody_20260708/evidence/clinical_trials/CD38_BCMA_clinical_history.md",
+    "autoimmune_bcell_antibody_20260708/disease_landscape/anca_associated_vasculitis.md",
+    "README.md",
+    "autoimmune_bcell_antibody_20260708/for_me/proposal_3_detailed_report.md",
+    "autoimmune_bcell_antibody_20260708/for_me",
+    "autoimmune_bcell_antibody_20260708/outputs/slide_outline.md",
+    "autoimmune_bcell_antibody_20260708/outputs/seed_proposal_3.md",
+    "autoimmune_bcell_antibody_20260708/evidence/clinical_trials/IGHV4-34_BCR_clinical_history.md",
+    "autoimmune_bcell_antibody_20260708/analysis/scoring_table.tsv",
+    "autoimmune_bcell_antibody_20260708/antibodies/design_options/CD38_BCMA_design.md",
+    "autoimmune_bcell_antibody_20260708/antibodies/design_options/CD72_design.md",
+    "autoimmune_bcell_antibody_20260708/antibodies/design_options/CXCL13_design.md",
+    "autoimmune_bcell_antibody_20260708/antibodies/design_options/FCRL4_CD22_design.md",
+    "autoimmune_bcell_antibody_20260708/targets/target_shortlist.tsv",
+    "autoimmune_bcell_antibody_20260708/analysis/disease_target_matrix.tsv",
+    "autoimmune_bcell_antibody_20260708/targets/target_cards",
+    "autoimmune_bcell_antibody_20260708/evidence/clinical_trials",
+    "autoimmune_bcell_antibody_20260708/antibodies/design_options"
+  ]
+}

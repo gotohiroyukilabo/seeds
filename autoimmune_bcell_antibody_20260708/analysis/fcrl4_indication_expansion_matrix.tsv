@@ -1,0 +1,11 @@
+疾患/病態	FcRL4根拠	想定患者集団	モダリティ仮説	期待できる症状/アウトカム	懸念	優先度	最初の検証
+Sjögren病: 腺内B細胞高値	FcRL4+ B細胞が唾液腺導管上皮近傍/LEL/MALT lymphoma文脈で報告	FcRL4+腺内B細胞高値、CXCL13/RF/低C4/高IgG/cryoglobulin高値	Fc-silent FCRL4 x CD22 BsAb	唾液腺腫脹、乾燥、B-cell-high systemic biomarker、リンパ腫risk surrogate	腺外症状への直接効果は不明	高	唾液腺FcRL4+CD22+ B細胞、ESSDAI domain、CXCL13/RF/cryoglobulin/C4相関
+Sjögren病: 関節症状合併	FcRL4直接証拠はpSS関節症では乏しいがRA滑膜で強い	超音波/MRI滑膜炎陽性、B-cell-high pSS	FCRL4 x CD22、滑膜PoC後にRA横展開	関節炎、滑膜炎	単なる関節痛/慢性疼痛では効かない可能性	中	滑膜液/滑膜生検でFcRL4+CD22+ B細胞確認
+Sjögren病: 神経障害/血管炎	cryoglobulinemic vasculitisではB細胞/免疫複合体軸が強い	cryoglobulin陽性、低C4、RF陽性、vasculitic neuropathy	FCRL4 x CD22、B-cell-high segment限定	紫斑、血管炎、cryoglobulinemic neuropathy	非vasculitic neuropathyや小線維障害は弱い	中-低	神経障害phenotype分離、cryoglobulin/RF/C4とFcRL4+腺内B細胞相関
+関節リウマチ	FcRL4+滑膜B細胞がRANKL/TNF高発現、シトルリン化自己抗原反応性	難治性RA、滑膜B-cell-rich、骨破壊進行、IgA/ACPA高値	FCRL4 x CD22、FCRL4 x FCGR2B、FCRL4 x RANKL	滑膜炎、骨破壊、局所B細胞炎症	競合過密、RA全体では差別化困難	高	RA滑膜FcRL4+CD22+ B細胞でBsAb機能評価
+Sjögren関連MALT lymphoma/前リンパ腫	FcRL4/IRTA1とLEL/MALT lymphomaの関係が強い	腺腫脹、MALT risk高値、clonal B細胞	Fc-silent予防的modulation、腫瘍寄りならADC/Fc-enhanced	リンパ増殖ニッチ、MALT lymphoma risk	自己免疫薬から腫瘍薬へ開発思想が変わる	中-高	LEL/MALTでFcRL4/CD22/internalization/安全域確認
+IgA/粘膜B細胞関連疾患	FcRL4はsystemic IgA receptor	病変組織FcRL4+IgA+ B細胞が確認できる疾患	FCRL4 x CD22、IgA immune-complex niche targeting	IgA関連炎症	IgA nephropathy/IBDなどで直接証拠乏しい	低-中	組織single-cellでFcRL4+ B細胞確認
+SLE/LN	FCRL4含むexhausted/atypical memory B cell文脈、直接証拠は限定的	腎内/組織FcRL4+CD22+ B細胞があるサブセット	FCRL4-gated CD22再挑戦	組織B細胞炎症	CD22/epratuzumab失敗の本丸、組織gateなしでは弱い	低-中	腎/血液single-cellでFcRL4+CD22+ B細胞確認
+Graves/Hashimoto	FCRL mRNA発現報告あり	末梢/甲状腺FCRL4+ B細胞高値が確認される場合	未定	甲状腺自己免疫	組織FcRL4標的として遠い	低	甲状腺組織/血液でFcRL4+ B細胞確認
+MG/CVID autoimmunity/慢性感染関連B細胞異常	2026 FCRL総説、CD21low/atypical B cell文脈	探索段階	未定	不明	病態・安全性・感染文脈が複雑	低	FcRL4+ B細胞の疾患関連性確認
+ANCA/膜性腎症/水疱症/強皮症/IBD	現時点で直接証拠乏しい	不明	優先しない	不明	別標的の方が自然	低	現時点では追加しない

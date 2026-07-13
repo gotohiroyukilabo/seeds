@@ -1,0 +1,21 @@
+標的ID	タンパク質名	UniProt ID	局在	疾患との関係	既存薬/臨床開発品	抗体MoA	安全性懸念	差別化仮説	推奨度
+IGHV4-34_BCR	IGHV4-34陽性BCR framework	該当なし / 再構成免疫グロブリン可変領域	B細胞表面BCR	SLEの9G4自己反応性B細胞	2026年にCAR-T前臨床報告。承認抗体は不明	BsAb/ADC/Fc強化でIGHV4-34陽性B細胞を選択的除去	CRS、正常IGHV4-34 B細胞喪失、免疫原性	病的クローン選択的B細胞reset	高
+FCRL4	Fc receptor-like protein 4	Q96PJ5	膜タンパク質 / 細胞外Igドメイン	Sjögren唾液腺の組織B細胞/上皮近傍B細胞	承認薬不明	FCRL4陽性組織B細胞のsilencingまたはdepletion	粘膜記憶B細胞への影響、発現heterogeneity	組織常在B細胞stateを標的化	高
+SIGLEC2_CD22	CD22 / Siglec-2	P20273	膜タンパク質	B細胞抑制受容体	epratuzumabがSLE Phase III失敗、inotuzumabはがん	FCRL4陽性細胞での抑制co-ligation	効力不足、広いB細胞modulation	CD22単独ではなく組織stateへretarget	中
+CD72	CD72 molecule	P21854	膜タンパク質	B細胞抑制受容体、SLE核酸自己抗原反応に関与仮説	承認薬不明	agonist抗体で抑制シグナル回復	正常B細胞免疫低下、human translation不明	非除去型tolerance restoration	高
+CXCL13	C-X-C motif chemokine ligand 13	O43927	分泌ケモカイン	B細胞/Tfh recruitment、異所性リンパ組織	承認anti-CXCL13不明	中和またはpH-recycling抗体	リンパ組織構造/感染、冗長性	B細胞ニッチ遮断、細胞除去ではない	中-高
+CXCR5	C-X-C chemokine receptor type 5	P32302	膜GPCR	B細胞/Tfh trafficking	承認薬不明	blockingまたはCXCR5陽性細胞depletion	リンパ組織移行障害、Tfh影響	CXCL13よりcellularだが安全域狭い	中
+TNFSF13B_BAFF	BAFF	Q9Y275	分泌/膜TNF ligand	SLE/SjögrenのB細胞生存	belimumab承認、tabalumab/blisibimod失敗	BAFF中和	感染、低Ig、効果限定	基本は比較対照	低
+TNFRSF13C_BAFFR	BAFF receptor	Q96RJ3	膜受容体	成熟B細胞生存	ianalumab等が開発中	blockingまたはBAFFR陽性B細胞depletion	感染、低Ig	ligand blockadeとの差別化はあるが混雑	条件付き
+TNFSF13_APRIL	APRIL	O75888	分泌/膜TNF ligand	形質細胞生存、粘膜Ig	atacicept等APRIL/BAFF系	APRIL阻害またはdual BAFF/APRIL	粘膜免疫/IgA、感染	単独では新規性弱い	中-低
+TNFRSF13B_TACI	TACI	O14836	膜受容体/可溶型	class switch、形質細胞分化、CVID関連	ataciceptはTACI-Fc ligand trap	agonist/antagonistは複雑	CVID様リスク、感染	機序は面白いがdrugging困難	中
+TNFRSF17_BCMA	BCMA	Q02223	膜受容体/可溶BCMA	長寿命形質細胞、自己抗体	myelomaでCAR-T/TCE/ADC承認、自己免疫報告あり	TCE/ADC/Fc強化/マスク型depletion	感染、低Ig、CRS/ICANS、血球毒性	有限・gated resetなら可能性	条件付き
+CD38	CD38	P28907	膜ectoenzyme	形質芽細胞/形質細胞	daratumumab等myeloma、自己免疫programあり	ADCC/ADCP/CDCまたはdual-gated reset	NK/Treg/形質細胞影響、感染	BCMAやmaskingでTI改善が必要	条件付き
+FCRL5	Fc receptor-like protein 5	Q96RD9	膜タンパク質	B細胞/形質細胞state marker	cevostamab FCRL5 x CD3がmyeloma	FCRL5陽性病的B/PC depletion	CRS、正常形質細胞影響	自己免疫でstate選択性が示せれば中程度	中
+SLAMF7	SLAM family member 7	Q9NQ25	膜受容体	形質細胞/NK標的	elotuzumab承認	ADCC/depletion	NK影響、感染	単独では新規性弱い	低-中
+CD19	CD19	P15391	膜B系列マーカー	多くの自己免疫B細胞疾患	inebilizumab、CAR-T、obexelimab等	depletionまたはinhibitory co-ligation	感染、低Ig、混雑	単独CD19は比較対照	低
+FCGR2B	Fc gamma receptor IIb	P31994	膜Fc receptor	B細胞抑制受容体	obexelimabが開発中	BCR/B細胞markerとのco-ligation	myeloid Fc receptor、免疫複合体	obexelimabを超える文脈が必要	条件付き
+CD40LG	CD40 ligand / CD154	P29965	膜/可溶型	T-B costimulation、GC、class switch	dapirolizumab、dazodalibep、frexalimab等	Fc-silent/masked blockade	血栓/血小板、感染	混雑。masked/tissue-gatedでなければ弱い	条件付き
+CD40	CD40	P25942	膜受容体	B細胞/APC costimulation	anti-CD40 program多数	blocking/depletion	広いAPC/B細胞抑制、感染	CD40Lより血小板リスク低いが新規性弱い	中-低
+IL21R	IL-21 receptor	Q9HBE5	膜サイトカイン受容体	Tfh依存B細胞分化、plasmablast	自己免疫抗体programは限定的/不明	IL-21 signaling阻害またはIL21R陽性state標的	感染、ワクチン応答、T/NK影響	Tfh-B軸でBAFF/CD40Lより空きあり	中
+ICOSLG	ICOS ligand / B7-H2	O75144	膜リガンド	Tfh-B help、異所性リンパ反応	AMG 557/prezalumab開発歴	ICOSL-ICOS阻害	T細胞costimulation影響、冗長性	患者選択が強ければ検討	中-低
