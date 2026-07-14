@@ -1,0 +1,4 @@
+相方	主な薬理	想定適応/患者	競合	革新性	主なリスク	初期Go条件	推奨度
+CD8A	CD8+ T細胞近接によるFcRL4+ B細胞reset	Sjögren MALT risk、RA滑膜B細胞高値、除去が必要な病変	直接競合なし。ただしCD3 TCE全体、FcRH5 x CD3が隣接競合	高いが薬理成立性は低め	CD8A単独では活性化不足、局所炎症、CRS様リスク、正常粘膜B細胞除去	FcRL4+ B細胞だけでCD8依存殺傷が出て、CD3 TCEよりサイトカインが低い	条件付き/低-中
+FCGR2B	FCGR2B/CD32B ITIMによる非除去型B細胞silencing	Sjögren腺内B細胞高値、RA滑膜B細胞高値	Obexelimab/CD19 x FCGR2Bが強い隣接競合	中-高	Obexelimab後追いに見える、FCGR2B広範結合、正常粘膜B細胞抑制	FcRL4+組織B細胞でCD19 x FCGR2B-likeを上回り、FcRL4陰性B細胞では弱い	中-高
+CD40LG	局所Tfh/Tph-B synapseのCD40L遮断	FcRL4-high/CXCL13-high/異所性リンパ組織型Sjögren	Dazodalibep/VIB4920がSjögren Phase 3	中	CD40L後追い、bridgingで逆活性化、血栓/platelet安全性	FcRL4+ B-T co-cultureでdazodalibep-like blockadeを低曝露で上回り、bridging活性化なし	中
