@@ -1,0 +1,7 @@
+設計枝	狙うeffector	標的側gate	期待される利点	主な競合	主要リスク	最初の評価	推奨度
+FcRL4 x low-affinity CD3 1+1	CD3+ T細胞	FcRL4+病変B細胞	最も検証しやすく、低CD3親和性でCRSを抑えられる	CD19xCD3、CD20xCD3、FcRH5xCD3	FcRL4選択性不足、CRS、局所組織傷害	FcRL4+ B細胞選択的killingとcytokine window	中
+FcRL4 2+1 x low-affinity CD3	CD3+ T細胞	FcRL4高発現B細胞	標的密度依存性を作りやすく、病変B細胞選択性を上げられる	2+1 TCB全般、FcRH5xCD3	正常粘膜FcRL4+ B細胞、分子複雑性	FcRL4密度別killing、正常粘膜B細胞安全域	中-高
+Masked FcRL4 x CD3	CD3+ T細胞	炎症組織でmask解除されるFcRL4+ B細胞	全身T細胞活性化を下げられる可能性	Masked/prodrug TCE	適切なmask解除条件が不明、活性不足	唾液腺/滑膜protease条件でのmask解除とkilling	中
+FcRL4 x CD8A x CD3 trispecific	CD8+ T細胞寄り	FcRL4+病変B細胞	CD8-biased cytotoxicityを狙える	CD19/CD3/CD28 TriTEなど多特異性TCE	CMC、安全性、T細胞過活性化	CD8依存性、CD4/CD8 cytokine差、killing選択性	条件付き/中
+FcRL4 x CD8A pure BsAb	CD8+ T細胞	FcRL4+病変B細胞	CD3非依存なら安全性が高い可能性	直接競合少ない	CD8Aだけでは活性化不足	pure CD8A BsAb単独でkillingが出るか	低-中
+FcRL4 x CD3 x CD28	CD3+ T細胞 + costimulation	FcRL4+病変B細胞	強力なTCE活性	CD19/CD3/CD28 TriTE	CRS、T細胞過活性化、自己免疫悪化	原則後回し。低用量で安全域確認	低

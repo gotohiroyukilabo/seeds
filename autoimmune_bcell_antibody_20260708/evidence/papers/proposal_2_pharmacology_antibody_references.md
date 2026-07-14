@@ -12,6 +12,7 @@
 - 抗FCRL4単独抗体とのhead-to-head比較
 - Sjögren腺外症状とFcRL4他疾患展開
 - FcRL4/FCRL5競合ランドスケープのうち、抗体薬理・標的化形式に関係する情報
+- FcRL4をT cell engagerへ展開する場合のCD3/CD8-biased設計と自己免疫TCE競合
 - CD22/Siglec-2のBCR抑制薬理
 - epratuzumabの抗体薬理とFc依存性trogocytosis
 - Fc-silent/Fc-tuned抗体設計
@@ -35,6 +36,17 @@
 | IRTA1/FcRL4は病理マーカーとして先行 | IHC/RNAscope/flowによる患者選択の足場になる。治療用epitopeは別に作る。 |
 | FCRL5 x CD3のcevostamabがSLE/LNへ進出 | FCRL family標的の自己免疫応用が現実化。Proposal 2はT-cell engagerではなくtissue silencerとして差別化する。 |
 | FCRL5 CAR-TもMMで動く | FCRL family標的が複数モダリティへ広がる兆候。FcRL4 ADC/CAR-Tは慢性自己免疫では低優先。 |
+
+## T cell engager方向性
+詳細メモ: [FCRL4_TCE_design.md](../../antibodies/design_options/FCRL4_TCE_design.md)
+
+| 論点 | 薬理・抗体設計上の意味 |
+|---|---|
+| CD8A-only BsAb | CD8Aはco-receptorであり、単独ではT細胞主活性化signalとして弱い。低優先。 |
+| FcRL4 x low-affinity CD3 | TCE方向性の主案。FcRL4+病変B細胞を短期resetする。 |
+| FcRL4 2+1 x low-affinity CD3 | FcRL4高発現細胞でavidityを作り、標的密度gateを狙う。 |
+| masked/prodrug TCE | 全身T細胞活性化を下げる可能性。ただしSjögren組織でmask解除条件が必要。 |
+| 自己免疫TCE競合 | CD19 x CD3、CD20 x CD3、BCMA x CD3、FcRH5 x CD3が自己免疫へ入り始めており、FcRL4 tissue-state選択性が必須。 |
 
 ## まず読むべき文献
 | 優先 | 文献 | リンク | 提案2での使いどころ |

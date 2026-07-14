@@ -91,6 +91,8 @@ FcRH5 x CD3/cevostamabとの違いは、FCRL5+形質細胞/B lineage全体では
 
 革新性は高いが、CD8A単独ではT細胞活性化が不足する可能性が最大の弱点である。最初から主案にするより、`FcRL4+病変B細胞を除去するならどこまで攻めるか` を検証する探索枝として扱う。純粋CD8A BsAbより、低親和性CD3またはCD8-biased TCEへの発展形を比較に入れる方が現実的である。
 
+T cell engager方向性の詳細は [FCRL4_TCE_design.md](FCRL4_TCE_design.md) にまとめた。現時点では、CD8A-only案より `FcRL4 x low-affinity CD3` または `FcRL4 2+1 x low-affinity CD3` を優先する。
+
 ## 参考文献・リンク
 - FcRL4+ B cells in Sjögren salivary glands: https://pubmed.ncbi.nlm.nih.gov/28390747/
 - pSS FcRL4+ B cell pathogenic signature: https://pubmed.ncbi.nlm.nih.gov/32201227/
