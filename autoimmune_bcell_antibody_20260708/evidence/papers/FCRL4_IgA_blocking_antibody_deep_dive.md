@@ -34,6 +34,8 @@ FcRL4について重要な点:
 
 2012年時点では、FcRL4-IgA結合は主にheat-aggregated IgAで見られていた。その後、2020年J ImmunolでFcRL4はheat aggregationなしにJ-chain-linked systemic IgAを認識し、secretory component付きのmucosal secretory IgAは認識しにくいことが示された。さらに2026年PNASでは、FcRL4がdIgA coreに1:1で結合し、主にJ鎖を認識するcryo-EM構造が示された。
 
+関連構造メモ: [FcRL4構造におけるファミリー特異的ループ候補](FCRL4_structure_specific_loop_epitope_analysis.md)
+
 この流れで413D12-like抗体を見直すと、以下の可能性が出る。
 
 | 観点 | 解釈 |
