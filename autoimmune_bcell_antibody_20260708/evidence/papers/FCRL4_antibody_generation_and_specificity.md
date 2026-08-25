@@ -40,6 +40,16 @@ FcRL4抗体は研究用mAbとして複数報告されているが、治療抗体
 
 `A1`と`580810`は、ここまでの作製論文で出てきたhistorical cloneとは少し性格が異なる。いずれも市販の研究用抗体で、referenceとしての強みは「実際に買いやすい」「FACS/CyTOF panelに組み込みやすい」ことである。一方で、創薬seedとして重要な可変領域配列、詳細エピトープ、J-chain-linked IgAとの競合性、FcRL family横断特異性は十分には公開されていない。
 
+### `413D12`、`A1`、`580810`の配列公開状況
+
+| クローン | VH/VLまたはCDR配列の公開状況 | 実務上の解釈 |
+|---|---|---|
+| `413D12` | 公開情報からは確認できず | Wilson 2012、市販vendor、Washington University OTMのhybridoma情報では、clone名、isotype、用途、blocking活性は分かるが、可変領域配列は出ていない。市販抗体はassay controlとして使う。 |
+| `A1` | 公開情報からは確認できず | Thermo/Novus/BDの製品情報では、免疫原、host/isotype、用途、CD designation関連情報はあるが、配列は出ていない。`1A3`とは別cloneであり、配列代替にはならない。 |
+| `580810` | 公開情報からは確認できず | R&D Systems/Thermoの製品情報では、免疫原、用途、FCRL1非交差情報はあるが、配列は出ていない。創薬seedではなく、binning/染色/competition assay用referenceと考える。 |
+
+したがって、これら3本は「配列を使って抗体を再構築するreference」ではなく、「実物を購入してbinding、binning、blocking、patient sample stainingの基準にするreference」である。配列が必要な場合は、権利者/vendor/寄託機関への問い合わせ、または入手抗体/ハイブリドーマからのsequencingが必要になる。ただし、市販RUO抗体のreverse engineeringやsequencingは契約条件で制限される場合があるため、事前確認が必要である。
+
 #### `A1` clone
 
 | 項目 | 内容 |
@@ -314,7 +324,8 @@ BioLegendなどの市販RUO抗体は、通常、研究使用に限定され、�
 | pSS唾液腺FcRL4+ B cell上で、IgA-J占有下でも各抗体が結合できるか | 不明 |
 | 治療用ヒト化抗FcRL4抗体/臨床開発品 | 今回の範囲では確認できず |
 | `1A3`、`418C8`、`2A6`の実務的入手性 | 通常カタログ品としては未確認。MTA、発明者、企業、ATCC deposit関連ルートの問い合わせが必要 |
-| `A1`、`580810`の可変領域配列/詳細エピトープ | 公開情報からは不明 |
+| `413D12`、`A1`、`580810`の可変領域配列 | 公開情報からは不明。clone名・免疫原・用途・一部機能は分かるが、VH/VL/CDR配列は確認できない |
+| `A1`、`580810`の詳細エピトープ | 公開情報からは不明 |
 | `A1`、`580810`のJ-chain-linked IgA競合性 | 不明。blocking referenceとしては扱わない |
 | `A1`、`580810`のFCRL1-6横断特異性 | `580810`はFCRL1非交差のみvendor記載あり。`A1`を含め、FCRL2/3/5/6への非交差は自前確認が必要 |
 
