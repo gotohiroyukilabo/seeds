@@ -28,6 +28,50 @@ FcRL4に対する抗体取得は不可能ではない。研究用・診断用の
 | FcRL4の機能二面性 | FcRL4はBCRシグナルを抑制する一方、TLR9応答やNF-kB系を増強する文脈が報告されている。 | blocking抗体がよいのか、agonistic抗体がよいのか、単純に予測できない。FcRL4を塞ぐとBCR抑制を解除し、逆効果になる可能性がある。 | 取得抗体は結合だけでなく、BCR刺激、TLR9刺激、CD40L/BAFF/IL-21共存下でのサイトカイン、増殖、抗体産生、CD80/CD86発現を評価する。 | 病変局所のFcRL4シグナルが疾患促進かブレーキかは、疾患・刺激文脈ごとに未確定。 |
 | 種差・前臨床モデル | マウスFcrl遺伝子群はヒトFCRLと対応が悪く、ヒトFCRL4の明確なマウス相同分子は乏しい。 | 通常のマウス疾患モデルで、FcRL4抗体の薬効・毒性・組織局在を直接評価しにくい。 | ヒトFcRL4 KI/トランスジェニック、ヒトB細胞移植、ヒト組織ex vivo、カニクイザル交差性確認を早期に設計する。 | カニクイザルFcRL4への交差性、発現部位、病変モデル妥当性は不明。 |
 
+## FcRL4+細胞・抗原試薬の入手性アップデート
+
+調査日: 2026-08-25
+
+### 結論
+
+FcRL4抗体取得に使える市販・一般入手可能な材料は存在する。ただし、入手しやすいものは主に「組換えECD」「強制発現lysate」「FFPE強制発現cell pellet section」「cDNA/ORF clone」であり、すぐに購入できる生細胞のFcRL4強制発現stable cell lineは標準カタログ品としては確認できない。したがって、初期抗体取得では可溶ECDと一過性/自作stable発現細胞を併用し、hit後に病変組織・primary FcRL4+ B cellで天然抗原結合を確認する設計が必要である。
+
+### 一般入手可能な試薬
+
+| 種類 | 製品/入手先 | 内容 | 使える用途 | 注意点 |
+|---|---|---|---|---|
+| 可溶化ECD | R&D Systems/Bio-Techne `2426-FC` | CHO由来recombinant human FCRL4/FcRH4 Ala18-Arg385、C-terminal 6-His、UniProt Q96PJ5。IgA binding活性がfunctional ELISAで示されている。 | ELISA、SPR/BLI、免疫、抗体binning、IgA/J-chain競合系の基礎抗原 | 膜近傍/膜上配向、native cell surface density、局所IgA占有状態は再現しない。固相化で非生理的epitopeが出る可能性がある。 |
+| 可溶/組換えタンパク質候補 | OriGene `TP316335` | human FCRL4 recombinant proteinとして掲載。詳細なドメイン範囲、タグ、発現系はページ上で要確認。 | WB/ELISA用の補助抗原候補 | 詳細QC・天然構造・IgA binding活性が不明なら、R&D `2426-FC`を優先。 |
+| MS標準 | OriGene `PH316335` | FCRL4 C13/N15-labeled recombinant protein MS standard。 | proteomics/LC-MSでの定量標準 | 抗体取得抗原ではなく分析用。 |
+| 強制発現lysate | OriGene `LY410574`/`LC410574`、Boster/Biorbyt再販品 | HEK293TにFCRL4 TrueORF `RC216335`を一過性導入したcell lysate。C-Myc/DDK tag。untransfected HEK293T lysateも同梱される。 | WB陽性対照、抗体がdenatured/lysate中FCRL4を拾うかの確認 | 生細胞ではない。FACS、内在化、ligand occupancy、膜上native epitope評価には使えない。 |
+| FFPE強制発現cell pellet section | OriGene `TS416335P5` | FCRL4を一過性発現したHEK293T細胞をホルマリン固定・パラフィン包埋したCytoSection。 | IHC/ICC/ISHの陽性対照、病理染色条件の最適化 | 生細胞ではない。固定でepitopeが変わるため、flow/薬理抗体の代替にはならない。 |
+| cDNA/ORF clone | OriGene `RC216335`、GenScript `OHu12911`、Sino Biological `HG13356-G`など | human FCRL4/NM_031282系ORF clone。OriGene `RC216335`はpCMV6-Entry、C-terminal Myc/DDK tag、mammalian selection neomycin。 | HEK293/CHO/BJAB/P815などで一過性発現またはstable cell line自作 | tag位置、isoform、signal peptide、発現量、glycosylationを自前確認する必要がある。 |
+| 膜タンパク質製品 | Creative Biolabs MemDX `MP0160J` | Human FCRL4 membrane protein、HEK293T発現として掲載。Stratechでは20 ug/100 ug単位の取り扱い表示あり。 | native-like抗原、免疫、BLI/SPR、抗体選別の補助候補 | inquiry/datasheet確認が必要。製品形態、タグ、QC、IgA/J-chain binding活性、ロット安定性は不明。 |
+| 天然発現に近い市販細胞 | RPMI 8226 | R&D clone `580810`のflow validation sampleとして使われているhuman multiple myeloma cell line。ATCC `CCL-155`、DSMZ `ACC 402`などで入手可能。 | FcRL4染色の陽性細胞候補、抗体結合確認 | 病変pSS/RAのFcRL4+ memory B cellとは別物。ATCC/DSMZの基本情報ではFCRL4陽性を保証していないため、購入ロット/継代ごとに413D12/A1/580810で確認する。CD19/CD20陰性寄りで、FcRL4 x CD22薬理モデルには不向きな可能性が高い。 |
+
+### 生きたFcRL4強制発現細胞は買えるか
+
+標準カタログ品として、HEK293/CHO/BJAB/P815などの「生きたFcRL4強制発現stable cell line」は確認できなかった。OriGeneにはready-to-use stable cell line製品群とcustom stable cell line development serviceがあり、FCRL4 ORF clone `RC216335`も入手できるため、実務上はcustom作製または社内作製が現実的である。
+
+論文上は、FcRL4発現P815細胞、BJAB-FcRL4細胞、HEK293T/BOSC23の一過性発現系、FCRL4変異体発現系が使われている。しかし、これらは各研究室で作った実験系であり、一般カタログからそのまま購入できる材料とは扱わない方がよい。
+
+### 使い分けの提案
+
+| 目的 | 推奨材料 | 理由 |
+|---|---|---|
+| 抗体取得の一次抗原 | R&D `2426-FC` + 自作FCRL4 full-length発現細胞 | soluble ECDだけでは膜上native epitopeを落とすため、細胞抗原と併用する。 |
+| FCRL4/FCRL5交差反応除去 | FCRL1-6 full-length発現細胞を自作またはcustom作製 | 2A6の教訓から、FCRL5を含むfamily counter-screenが必須。 |
+| IHC陽性対照 | OriGene `TS416335P5` + 扁桃/pSS/MALT組織 | 固定条件の陽性対照として便利だが、病変組織結合の代替ではない。 |
+| WB/抗原確認 | OriGene `LY410574`/`LC410574` | 発現lysateとして扱いやすい。 |
+| flow染色陽性細胞 | 自作FCRL4-HEK293/CHO + RPMI 8226を補助 | RPMI 8226は市販細胞だがFCRL4発現保証ではないため、自作強制発現細胞を主軸にする。 |
+| IgA/J-chain競合 | R&D `2426-FC`、FCRL4発現細胞、recombinant dIgA-J/secretory component | solubleとcell-basedの両方で見る。固定化ECDだけの競合は過大解釈しない。 |
+
+### 開発ハードルとしての読み替え
+
+FcRL4+病変B細胞が直接たくさん手に入らないことはハードルだが、抗原そのものが手に入らないわけではない。むしろ課題は、「買える抗原が病変局所の天然FcRL4をどこまで代表するか」である。したがって、上司への説明では次のように言える。
+
+「FcRL4 ECDやFCRL4強制発現lysate、IHC用強制発現section、ORF cloneは一般入手可能です。一方で、生きたFcRL4強制発現stable cell lineは少なくとも標準カタログ品としては見つからず、自作またはcustom作製が必要です。初期抗体取得は可能ですが、ECDやtransfectantで取れた抗体がpSS唾液腺やRA滑膜の天然FcRL4+ B cellを拾うかを早期に確認することが、この標的の本当の技術的リスクです。」
+
 ## エピトープ設計上の具体的な論点
 
 ### 1. アンカー抗体として使う場合
@@ -74,7 +118,7 @@ ADCでは標的の内在化が重要だが、2026年のIgA構造研究ではFcRL
 | FcRL4は組織局在性メモリーB細胞に発現 | Ehrhardt et al., J Exp Med 2005. PMID: [16157685](https://pubmed.ncbi.nlm.nih.gov/16157685/) | FcRL4+ B細胞はMALTの上皮近傍に存在し、活性化/組織局在性の表現型を示す。 |
 | pSS唾液腺・MALTリンパ腫でのFcRL4 | Haacke et al., J Autoimmun 2017. PMID: [28390747](https://pubmed.ncbi.nlm.nih.gov/28390747/) | pSS唾液腺上皮近傍のFcRL4+ B細胞、MALTリンパ腫、治療後変化を報告。 |
 | pSS局所FcRL4+ B細胞の転写プロファイル | Verstappen et al., J Autoimmun 2020. PMID: [32201227](https://pubmed.ncbi.nlm.nih.gov/32201227/) | 唾液腺FcRL4+ B細胞が活性化・炎症性・細胞周期関連シグネチャーを示す。 |
-| FcRL4+様B細胞のin vitro誘導 | Wu et al., PLoS One 2017. PMID: [28636654](https://pubmed.ncbi.nlm.nih.gov/28636654/) | CD40L/CpGなどでFcRL4+ B細胞様集団を誘導できる可能性。 |
+| FcRL4+細胞のアクセス難度とin vitro誘導 | Jourdan et al., PLoS One 2017. PMID: [28636654](https://pubmed.ncbi.nlm.nih.gov/28636654/), PMC: [PMC5479562](https://pmc.ncbi.nlm.nih.gov/articles/PMC5479562/) | in vivo FCRL4+ cellはアクセス・単離が難しいため、CD40L/CpGなどによるin vitro誘導系を構築した。 |
 | FcRLファミリー、ヒト/マウス差 | Davis, FcRL review, Front Immunol 2014. PMC: [PMC4242170](https://pmc.ncbi.nlm.nih.gov/articles/PMC4242170/) | マウスFcrlとヒトFCRLの対応が限定的で、前臨床モデルの制約になる。 |
 | FcRLファミリーの構造・疾患 | Fc Receptor-Like Proteins in Pathophysiology of B-cell Disorder, 2016. PMC: [PMC4950983](https://pmc.ncbi.nlm.nih.gov/articles/PMC4950983/) | FCRL構造、ITIM/ITAM様モチーフ、B細胞疾患との関連を整理したレビュー。 |
 | FcRL4/FcRL5のIg結合とblocking抗体 | Wilson et al., J Immunol 2012. PMID: [22491254](https://pubmed.ncbi.nlm.nih.gov/22491254/) | FcRL4がIgA受容体として働き、IgA結合を阻害する抗FcRL4抗体が作製された。 |
@@ -83,3 +127,12 @@ ADCでは標的の内在化が重要だが、2026年のIgA構造研究ではFcRL
 | FcRL4によるBCR抑制 | Ehrhardt et al., PNAS 2003. PMID: [14597715](https://pubmed.ncbi.nlm.nih.gov/14597715/) | FcRH4/FcRL4の細胞内ITIM様モチーフを介したBCRシグナル抑制。 |
 | FcRL4はBCR抑制とTLR9増強を併せ持つ | Sohn et al., Blood 2011. PMID: [21908428](https://pubmed.ncbi.nlm.nih.gov/21908428/) | BCRシナプス形成抑制、TLR9応答増強を報告。 |
 | FcRL4シグナルの文脈依存性 | Sohn et al., J Immunol 2015. PMID: [25972488](https://pubmed.ncbi.nlm.nih.gov/25972488/) | HCK/FGRなどSrc family kinase依存でBCR/TLR応答が変わる。 |
+| 可溶FcRL4 ECD | R&D Systems/Bio-Techne `2426-FC`. [Product page](https://www.rndsystems.com/products/recombinant-human-fcrl4-fcrh4-his-tag-protein-cf_2426-fc) | CHO由来human FCRL4/FcRH4 Ala18-Arg385 His-tag。IgA binding activityがQCされている。 |
+| FCRL4 ORF clone | OriGene `RC216335`. [Product page](https://www.origene.com/catalog/cdna-clones/expression-plasmids/rc216335-fcrl4-nm-031282-human-tagged-orf-clone) | FCRL4/NM_031282のhuman tagged ORF clone。pCMV6-Entry、neomycin selection。 |
+| FCRL4 ORF clone | GenScript `OHu12911`. [Product page](https://www.genscript.com/gene/other/83417/fcrl4.html) | NM_031282.3系のhuman FCRL4 ORF clone。自作発現細胞の別ソース候補。 |
+| custom stable cell line作製 | OriGene custom stable cell line development. [Service page](https://www.origene.com/services/custom-over-expression-stable-cell-lines) | HEK293/CHO/custom cell lineでconstitutive/inducible overexpression cell line作製サービスがある。 |
+| FCRL4 overexpression lysate | OriGene `LY410574`/`LC410574`. [Product page](https://www.origene.com/catalog/proteins/over-expression-lysates/ly410574-fcrl4-nm-031282-human-over-expression-lysate) | HEK293T transient overexpression lysate。WB陽性対照向き。 |
+| FCRL4 CytoSection | OriGene `TS416335P5`. [Product page](https://www.origene.com/catalog/proteins/cytosections/ts416335p5-fcrl4-cytosection) | FCRL4 transiently transfected HEK293TのFFPE section。IHC/ICC/ISH陽性対照向き。 |
+| FCRL4膜タンパク質製品 | Creative Biolabs MemDX `MP0160J`. [Product listing](https://www.creative-biolabs.com/category-fc-receptor-protein-products-25.htm) | Human FCRL4 membrane protein、HEK293T expressionとして掲載。inquiry/datasheet確認が必要。 |
+| RPMI 8226市販細胞 | ATCC `CCL-155`. [ATCC product page](https://www.atcc.org/products/cells_and_microorganisms/cell_lines/human/tumor_cell_panels/cell_lines_by_genetic_mutation/egfr/ccl-155) | R&D clone 580810のFCRL4 flow validation sampleとして使われるが、病変FcRL4+ B cellモデルではない。 |
+| RPMI 8226でのFcRL4染色validation | R&D Systems/Bio-Techne clone `580810`, discontinued APC page. [Product page](https://www.bio-techne.com/p/antibodies/human-fcrl4-fcrh4-apc-conjugated-antibody-580810_fab24262a) | RPMI 8226 human multiple myeloma cell lineをFCRL4/FcRH4 flow cytometry sampleとして使用。 |
