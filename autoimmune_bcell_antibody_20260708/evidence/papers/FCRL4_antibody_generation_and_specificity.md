@@ -23,6 +23,35 @@ FcRL4抗体は研究用mAbとして複数報告されているが、治療抗体
 | `418C8` | Wilson et al., J Immunol 2012 | `413D12`と同じ免疫・ハイブリドーマ系 | heat-aggregated IgA結合はブロックしない | 詳細不明 | non-blocking対照として有用。結合だけで細胞除去する設計なら比較対照になる |
 | `M-IRTA1` | Falini et al., Blood 2003 | IRTA1/FcRL4の細胞外部分に対するmAb。IHC/WB/IPで検証 | 不明。IgA/J-chain発見前の病理抗体 | IRTA2-5 transfectantではバンドなしと報告 | FFPE病理/IHCに強い可能性。治療抗体候補としては表面細胞結合・リガンド競合が不明 |
 
+## Reference antibodyの入手性アップデート
+
+前項での「reference antibody」は「論文上の比較対照として有用」という意味であり、4本すべてが通常カタログで簡単に買えるという意味ではない。実務上は以下のように分けて考える。
+
+| クローン | 現時点の入手性 | 根拠/候補ルート | 実験での使い方 |
+|---|---|---|---|
+| `413D12` | 入手しやすい | BioLegendにpurified品 `340202`、PE/APC/PerCP-Cy5.5/TotalSeqなどの複数formatがある。Thermo/eBioscienceにもAPC `17-3079-42`、PerCP-eFluor 710 `46-3079-42`がある。Washington University OTMにもhybridoma `T-007612`として掲載がある。 | 最優先で入手するreference。blocking assayにはconjugated品ではなくpurified品を使う。 |
+| `1A3` | 通常カタログ品としては未確認 | 論文ではGenentech提供品。Genentech/ATCC deposit関連特許ではanti-FcRH4-1A3が記載されるが、一般購入できる保証はない。 | 入手できればFCRL4/FCRL5識別のよい対照。ただし現実的には「要問い合わせ/MTA候補」。 |
+| `418C8` | 入手困難 | Wilson 2012でnon-blocking anti-FcRL4として登場するが、通常カタログ品や明確な公開hybridomaルートは未確認。 | 厳密には欲しいが、まずは自前取得抗体の中から413D12 non-competing/non-blocking cloneを作る方が現実的。 |
+| `2A6` / `4-2A6` | 入手困難、かつ優先度低 | 論文ではMax Cooper group由来の提供品として使われる例がある。特許上は4-2A6 hybridoma depositが記載されるが、一般購入できる保証はない。 | FCRL5交差反応を示す負の教材。新規抗体開発の実験対照としては必須ではない。 |
+
+### 市販代替クローン
+
+`A1`は市販されているが、`1A3`とは別クローンとして扱うべきである。Thermo Fisher `MA574633`、Novus `NBP3-11836`などでunconjugated/標識formatがあり、DNA immunization後にFCRL4/FcRH4/IRTA1 transfectantでboostした抗体と記載されている。HLDAのCD designationに使われたとの記載もあるため、実務上の染色対照としては候補になる。
+
+`580810`もR&D Systems/Thermo Fisherから入手できる市販クローンで、NS0-derived recombinant human FCRL4/FcRH4 Gln16-Asp385を免疫原とし、flow用に使える。ただし、FCRL1とのdirect ELISA非交差以外のFcRL family横断特異性やJ-chain競合性は十分には分からない。
+
+### 実務上の推奨reference panel
+
+1. `413D12 purified`: ligand blocking/J-chain competitionの陽性対照。
+2. `413D12 conjugated`: FACSでのFcRL4染色対照。
+3. `A1`または`580810`: 413D12とは別エピトープ候補の市販anti-FcRL4対照。
+4. anti-FCRL5 `509F6`など: FCRL5交差反応を潰すための必須対照。
+5. FCRL1/2/3/4/5/6単独発現細胞: 抗体そのものより重要な特異性判定パネル。
+
+### 注意
+
+BioLegendなどの市販RUO抗体は、通常、研究使用に限定され、商用利用、再販、製造利用、reverse engineering、sequencingなどが制限される場合がある。創薬seedの配列・抗体本体として使うのではなく、あくまでbinding/competition assayの実験対照として使う位置づけに留める。
+
 ## 論文別メモ
 
 ### 1. Ehrhardt et al. 2005: `2A6` anti-FcRH4/FcRL4
@@ -191,8 +220,9 @@ FcRL4抗体は研究用mAbとして複数報告されているが、治療抗体
 
 1. ヒトFCRL4 full-lengthを安定発現する細胞を作り、native conformationに対するbindersを取る。
 2. FCRL1、FCRL2、FCRL3、FCRL5、FCRL6単独発現細胞でnegative selectionする。
-3. `1A3`、`413D12`、`418C8`、`2A6`をreference antibodyとして同時に走らせる。
-4. primary tonsil/pSS salivary gland由来FcRL4+ B cellで染色できるかを見る。ただし検体入手性は不明。
+3. `413D12`を最優先reference antibodyとして同時に走らせる。
+4. 入手できる場合のみ`1A3`、`418C8`、`2A6`を追加する。入手できない場合は、市販`A1`、`580810`、anti-FCRL5 `509F6`を実務上の代替referenceにする。
+5. primary tonsil/pSS salivary gland由来FcRL4+ B cellで染色できるかを見る。ただし検体入手性は不明。
 
 ### J-chain/dIgA競合screen
 
@@ -237,6 +267,7 @@ FcRL4抗体は研究用mAbとして複数報告されているが、治療抗体
 | `413D12`、`418C8`、`1A3`の詳細エピトープ/bin | 不明 |
 | pSS唾液腺FcRL4+ B cell上で、IgA-J占有下でも各抗体が結合できるか | 不明 |
 | 治療用ヒト化抗FcRL4抗体/臨床開発品 | 今回の範囲では確認できず |
+| `1A3`、`418C8`、`2A6`の実務的入手性 | 通常カタログ品としては未確認。MTA、発明者、企業、ATCC deposit関連ルートの問い合わせが必要 |
 
 ## 参考文献
 
@@ -247,3 +278,8 @@ FcRL4抗体は研究用mAbとして複数報告されているが、治療抗体
 5. Obeng-Adjei et al. `FCRL5 Delineates Functionally Impaired Memory B Cells Associated with Plasmodium falciparum Exposure.` PLOS Pathogens, 2015. [PMC4438005](https://pmc.ncbi.nlm.nih.gov/articles/PMC4438005/), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25993340/)
 6. Liu et al. `FCRL4 Is an Fc Receptor for Systemic IgA, but Not Mucosal Secretory IgA.` Journal of Immunology, 2020. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32513851/), [Oxford Academic](https://academic.oup.com/jimmunol/article-abstract/205/2/533/7930732), DOI: [10.4049/jimmunol.2000293](https://doi.org/10.4049/jimmunol.2000293)
 7. Su/Wang/Xiao et al. `FcRL4 is an IgA receptor that primarily binds the joining chain.` PNAS, 2026. [PubMed](https://pubmed.ncbi.nlm.nih.gov/42308047/), DOI: [10.1073/pnas.2600183123](https://doi.org/10.1073/pnas.2600183123), [RCSB PDB 9MBZ](https://www.rcsb.org/structure/9MBZ)
+8. BioLegend `PE anti-human CD307d (FcRL4) clone 413D12` and related formats. [BioLegend product page](https://www.biolegend.com/Default.aspx?ID=6664&productid=5701)
+9. Thermo Fisher `CD307d (FcRL4) Monoclonal Antibody (413D12), APC, eBioscience`. [Product page](https://www.thermofisher.com/antibody/product/CD307d-FcRL4-Antibody-clone-413D12-Monoclonal/17-3079-42)
+10. Washington University Office of Technology Management `Mouse Hybridoma producing IgG2b Monoclonal Antibodies to Human FcRL4`, Tech ID `T-007612`. [Technology summary](https://tech.wustl.edu/tech-summary/mouse-hybridoma-producing-igg2b-monoclonal-antibodies-to-human-fcrl4/)
+11. Novus Biologicals `FCRL4/FcRH4/IRTA1 Antibody (A1) - BSA Free`, `NBP3-11836`. [Product page](https://www.novusbio.com/products/fcrl4-fcrh4-irta1-antibody-a1_nbp3-11836)
+12. R&D Systems/Thermo Fisher `FCRL4/FcRH4 Antibody clone 580810`. [R&D Systems target page](https://www.rndsystems.com/target/fcrl4-fcrh4/antibodies), [Thermo Fisher MA5-24262](https://www.thermofisher.com/antibody/product/FCRL4-Antibody-clone-580810-Monoclonal/MA5-24262)
