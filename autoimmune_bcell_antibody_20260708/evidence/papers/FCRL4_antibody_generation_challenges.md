@@ -38,16 +38,42 @@ FcRL4抗体取得に使える市販・一般入手可能な材料は存在する
 
 ### 一般入手可能な試薬
 
-| 種類 | 製品/入手先 | 内容 | 使える用途 | 注意点 |
+| 種類                          | 製品/入手先                                                                | 内容                                                                                                                       | 使える用途                                             | 注意点                                                                                                                                                |
+| --------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 可溶化ECD                      | R&D Systems/Bio-Techne `2426-FC`                                      | CHO由来recombinant human FCRL4/FcRH4 Ala18-Arg385、C-terminal 6-His、UniProt Q96PJ5。IgA binding活性がfunctional ELISAで示されている。   | ELISA、SPR/BLI、免疫、抗体binning、IgA/J-chain競合系の基礎抗原    | 膜近傍/膜上配向、native cell surface density、局所IgA占有状態は再現しない。固相化で非生理的epitopeが出る可能性がある。                                                                     |
+| 可溶/組換えタンパク質候補               | OriGene `TP316335`                                                    | human FCRL4 recombinant proteinとして掲載。詳細なドメイン範囲、タグ、発現系はページ上で要確認。                                                          | WB/ELISA用の補助抗原候補                                  | 詳細QC・天然構造・IgA binding活性が不明なら、R&D `2426-FC`を優先。                                                                                                     |
+| MS標準                        | OriGene `PH316335`                                                    | FCRL4 C13/N15-labeled recombinant protein MS standard。                                                                   | proteomics/LC-MSでの定量標準                            | 抗体取得抗原ではなく分析用。                                                                                                                                     |
+| 強制発現lysate                  | OriGene `LY410574`/`LC410574`、Boster/Biorbyt再販品                       | HEK293TにFCRL4 TrueORF `RC216335`を一過性導入したcell lysate。C-Myc/DDK tag。untransfected HEK293T lysateも同梱される。                    | WB陽性対照、抗体がdenatured/lysate中FCRL4を拾うかの確認           | 生細胞ではない。FACS、内在化、ligand occupancy、膜上native epitope評価には使えない。                                                                                        |
+| FFPE強制発現cell pellet section | OriGene `TS416335P5`                                                  | FCRL4を一過性発現したHEK293T細胞をホルマリン固定・パラフィン包埋したCytoSection。                                                                     | IHC/ICC/ISHの陽性対照、病理染色条件の最適化                       | 生細胞ではない。固定でepitopeが変わるため、flow/薬理抗体の代替にはならない。                                                                                                       |
+| cDNA/ORF clone              | OriGene `RC216335`、GenScript `OHu12911`、Sino Biological `HG13356-G`など | human FCRL4/NM_031282系ORF clone。OriGene `RC216335`はpCMV6-Entry、C-terminal Myc/DDK tag、mammalian selection neomycin。      | HEK293/CHO/BJAB/P815などで一過性発現またはstable cell line自作 | tag位置、isoform、signal peptide、発現量、glycosylationを自前確認する必要がある。                                                                                        |
+| 膜タンパク質製品                    | Creative Biolabs MemDX `MP0160J`                                      | Human FCRL4 membrane protein、HEK293T発現として掲載。Stratechでは20 ug/100 ug単位の取り扱い表示あり。                                           | native-like抗原、免疫、BLI/SPR、抗体選別の補助候補                | inquiry/datasheet確認が必要。製品形態、タグ、QC、IgA/J-chain binding活性、ロット安定性は不明。                                                                                 |
+| 天然発現に近い市販細胞                 | RPMI 8226                                                             | R&D clone `580810`のflow validation sampleとして使われているhuman multiple myeloma cell line。ATCC `CCL-155`、DSMZ `ACC 402`などで入手可能。 | FcRL4染色の陽性細胞候補、抗体結合確認                             | 病変pSS/RAのFcRL4+ memory B cellとは別物。ATCC/DSMZの基本情報ではFCRL4陽性を保証していないため、購入ロット/継代ごとに413D12/A1/580810で確認する。CD19/CD20陰性寄りで、FcRL4 x CD22薬理モデルには不向きな可能性が高い。 |
+
+### ファミリー特異性カウンタースクリーニング用の市販材料
+
+調査日: 2026-08-25
+
+#### 結論
+
+FcRL4抗体のファミリー特異性確認に必要な比較材料は、市販品を起点に準備できる。ただし、`FCRL1-6のヒトECDを同一仕様で全種類購入する`ことは、今回確認した主要カタログではできない。ヒトECDの明確な製品はFCRL1、FCRL2、FCRL5で確認できた一方、FCRL3とFCRL6は、同じ検索範囲では抗体結合試験にそのまま使える可溶性ヒトECDを確認できなかった。
+
+一方、FCRL1、FCRL2、FCRL3、FCRL5、FCRL6はいずれも、ヒト全長ORF cloneと発現細胞作製用lentiviral particleがOriGeneから購入可能である。したがって、最も比較可能性が高い方法は、同じparent cell、vector/tag系列、発現量レンジでFCRL1-6全長発現細胞を作製し、cell-based counter-screenを主判定にすることである。標準カタログ品として完成済みの生きたFCRL1-6 stable expression cell lineは確認できなかった。
+
+| 比較標的 | 市販ヒトECD | 全長発現細胞を作る市販材料 | 生きた既製発現細胞 | 実務上の使い方 |
 |---|---|---|---|---|
-| 可溶化ECD | R&D Systems/Bio-Techne `2426-FC` | CHO由来recombinant human FCRL4/FcRH4 Ala18-Arg385、C-terminal 6-His、UniProt Q96PJ5。IgA binding活性がfunctional ELISAで示されている。 | ELISA、SPR/BLI、免疫、抗体binning、IgA/J-chain競合系の基礎抗原 | 膜近傍/膜上配向、native cell surface density、局所IgA占有状態は再現しない。固相化で非生理的epitopeが出る可能性がある。 |
-| 可溶/組換えタンパク質候補 | OriGene `TP316335` | human FCRL4 recombinant proteinとして掲載。詳細なドメイン範囲、タグ、発現系はページ上で要確認。 | WB/ELISA用の補助抗原候補 | 詳細QC・天然構造・IgA binding活性が不明なら、R&D `2426-FC`を優先。 |
-| MS標準 | OriGene `PH316335` | FCRL4 C13/N15-labeled recombinant protein MS standard。 | proteomics/LC-MSでの定量標準 | 抗体取得抗原ではなく分析用。 |
-| 強制発現lysate | OriGene `LY410574`/`LC410574`、Boster/Biorbyt再販品 | HEK293TにFCRL4 TrueORF `RC216335`を一過性導入したcell lysate。C-Myc/DDK tag。untransfected HEK293T lysateも同梱される。 | WB陽性対照、抗体がdenatured/lysate中FCRL4を拾うかの確認 | 生細胞ではない。FACS、内在化、ligand occupancy、膜上native epitope評価には使えない。 |
-| FFPE強制発現cell pellet section | OriGene `TS416335P5` | FCRL4を一過性発現したHEK293T細胞をホルマリン固定・パラフィン包埋したCytoSection。 | IHC/ICC/ISHの陽性対照、病理染色条件の最適化 | 生細胞ではない。固定でepitopeが変わるため、flow/薬理抗体の代替にはならない。 |
-| cDNA/ORF clone | OriGene `RC216335`、GenScript `OHu12911`、Sino Biological `HG13356-G`など | human FCRL4/NM_031282系ORF clone。OriGene `RC216335`はpCMV6-Entry、C-terminal Myc/DDK tag、mammalian selection neomycin。 | HEK293/CHO/BJAB/P815などで一過性発現またはstable cell line自作 | tag位置、isoform、signal peptide、発現量、glycosylationを自前確認する必要がある。 |
-| 膜タンパク質製品 | Creative Biolabs MemDX `MP0160J` | Human FCRL4 membrane protein、HEK293T発現として掲載。Stratechでは20 ug/100 ug単位の取り扱い表示あり。 | native-like抗原、免疫、BLI/SPR、抗体選別の補助候補 | inquiry/datasheet確認が必要。製品形態、タグ、QC、IgA/J-chain binding活性、ロット安定性は不明。 |
-| 天然発現に近い市販細胞 | RPMI 8226 | R&D clone `580810`のflow validation sampleとして使われているhuman multiple myeloma cell line。ATCC `CCL-155`、DSMZ `ACC 402`などで入手可能。 | FcRL4染色の陽性細胞候補、抗体結合確認 | 病変pSS/RAのFcRL4+ memory B cellとは別物。ATCC/DSMZの基本情報ではFCRL4陽性を保証していないため、購入ロット/継代ごとに413D12/A1/580810で確認する。CD19/CD20陰性寄りで、FcRL4 x CD22薬理モデルには不向きな可能性が高い。 |
+| FCRL1 / CD307a | Sino Biological `11536-H08H`: HEK293由来FCRL1 ECD Met1-Asn303、C末端His tag。[製品ページ](https://www.sinobiological.com/recombinant-proteins/human-fcrl1-11536-h08h) | OriGene `RC207660` full-length ORF、`RC207660L1V/L3V`などのlentiviral particle。[ORF](https://www.origene.com/catalog/cdna-clones/expression-plasmids/rc207660-fcrl1-nm-052938-human-tagged-orf-clone)、[lentiviral particle](https://www.origene.com/catalog/cdna-clones/lentiviral-particles/rc207660l3v-fcrl1-nm-052938-human-tagged-orf-clone-lentiviral-particle) | 確認できず | ECD ELISA/BLIと全長cell-bindingの両方に使える。 |
+| FCRL2 / CD307b | Sino Biological `16041-H08H`: HEK293由来FCRL2 Met1-Asp395、C末端His tag。[製品ページ](https://www.sinobiological.com/recombinant-proteins/human-fcrl2-16041-h08h) | OriGene `RC221878`または`RC222865` full-length ORF、対応lentiviral particle。[ORF](https://www.origene.com/catalog/cdna-clones/expression-plasmids/rc221878-fcrl2-nm-030764-human-tagged-orf-clone)、[lentiviral particle](https://www.origene.com/catalog/cdna-clones/lentiviral-particles/rc221878l3v-fcrl2-nm-030764-human-tagged-orf-clone-lentiviral-particle) | 確認できず | isoform/transcriptを固定してcell panelへ入れる。 |
+| FCRL3 / CD307c | 今回確認したSino Biological/OriGeneの公式カタログでは、抗体counter-screen用の可溶性ヒトFCRL3 ECDを確認できず。OriGeneの`FCRL3 protein`検索結果はmouse Fcgr4のfalse positiveだった。 | OriGene `RC214467` full-length ORF、`RC214467L1V-L4V` lentiviral particle。[ORF](https://www.origene.com/catalog/cdna-clones/expression-plasmids/rc214467-fcrl3-nm-052939-human-tagged-orf-clone)、[lentiviral particle](https://www.origene.com/catalog/cdna-clones/lentiviral-particles/rc214467l3v-fcrl3-nm-052939-human-tagged-orf-clone-lentiviral-particle) | 確認できず | FCRL4と近縁なIg-like表面の交差反応確認では、全長発現細胞を必須にする。 |
+| FCRL5 / CD307e / FcRH5 | Sino Biological `11915-H08H`: HEK293由来FCRL5 ECD Gln16-Gly851、C末端His tag、HPLC/MALS確認。[製品ページ](https://www.sinobiological.com/recombinant-proteins/human-fcrl5-11915-h08h) | OriGene `RC221468` full-length ORF、`RC221468L1V/L3V/L4V` lentiviral particle。OriGeneではFCRH5ではなくIRTA2名も併記される。[ORF](https://www.origene.com/catalog/cdna-clones/expression-plasmids/rc221468-irta2-fcrl5-nm-031281-human-tagged-orf-clone)、[lentiviral particle](https://www.origene.com/catalog/cdna-clones/lentiviral-particles/rc221468l3v-irta2-fcrl5-nm-031281-human-tagged-orf-clone-lentiviral-particle) | 確認できず | `2A6`のFCRL5交差反応の教訓から、最優先のnegative counter-targetにする。 |
+| FCRL6 / CD307f | 今回確認したSino Biological/OriGeneの公式カタログでは、可溶性ヒトFCRL6 ECDを確認できず。OriGeneで販売されるprotein関連品はoverexpression lysateとFFPE CytoSectionで、可溶性ECDではない。 | OriGene `RC220022` full-length ORF、`RC220022L1V-L4V` lentiviral particle。[ORF](https://www.origene.com/catalog/cdna-clones/expression-plasmids/rc220022-fcrl6-nm-001004310-human-tagged-orf-clone)、[lentiviral particle](https://www.origene.com/catalog/cdna-clones/lentiviral-particles/rc220022l3v-fcrl6-nm-001004310-human-tagged-orf-clone-lentiviral-particle) | 確認できず | cell-based counter-screenを主にし、WB/IHC対照には`LY424086/LC424086` lysateや`TS420022P5`を補助使用できる。 |
+
+#### 推奨する比較パネルの組み方
+
+1. HEK293またはCHOの同一parent cellに、FCRL1、FCRL2、FCRL3、FCRL4、FCRL5、FCRL6のfull-length ORFを同一vector/tag条件で導入する。
+2. anti-tag抗体または定量可能なreference antibodyで各family memberの表面発現量を合わせる。単純なMFI比較ではなく、FcRL4と同程度、低密度、高密度の複数レンジを作る。
+3. 一次判定は生細胞flow cytometryとし、FCRL1/FCRL2/FCRL5 ECDへのELISA/BLIは補助判定にする。ECD陰性でもnative full-length cellへ結合する抗体、またはその逆があり得るため、どちらか一方だけで特異性を結論しない。
+4. 最低限の優先順位はFCRL5、FCRL3、FCRL2、FCRL1、FCRL6の順とする。特にFCRL5はhistorical clone `2A6`の交差反応が報告されており、最重要counter-targetである。
+5. 市販lentiviral particleは発現細胞そのものではない。受入後にtransduction、単一細胞clone化または発現量sort、配列・表面発現・継代安定性のQCが必要である。
 
 ### 生きたFcRL4強制発現細胞は買えるか
 
@@ -60,7 +86,7 @@ FcRL4抗体取得に使える市販・一般入手可能な材料は存在する
 | 目的 | 推奨材料 | 理由 |
 |---|---|---|
 | 抗体取得の一次抗原 | R&D `2426-FC` + 自作FCRL4 full-length発現細胞 | soluble ECDだけでは膜上native epitopeを落とすため、細胞抗原と併用する。 |
-| FCRL4/FCRL5交差反応除去 | FCRL1-6 full-length発現細胞を自作またはcustom作製 | 2A6の教訓から、FCRL5を含むfamily counter-screenが必須。 |
+| FCRL4/FCRL5交差反応除去 | 市販FCRL1-6 ORF/lentiviral particleから同一hostのfull-length発現細胞を自作、またはcustom作製 | 2A6の教訓から、FCRL5を含むfamily counter-screenが必須。FCRL1/2/5は市販ECDでも補助確認できる。 |
 | IHC陽性対照 | OriGene `TS416335P5` + 扁桃/pSS/MALT組織 | 固定条件の陽性対照として便利だが、病変組織結合の代替ではない。 |
 | WB/抗原確認 | OriGene `LY410574`/`LC410574` | 発現lysateとして扱いやすい。 |
 | flow染色陽性細胞 | 自作FCRL4-HEK293/CHO + RPMI 8226を補助 | RPMI 8226は市販細胞だがFCRL4発現保証ではないため、自作強制発現細胞を主軸にする。 |
