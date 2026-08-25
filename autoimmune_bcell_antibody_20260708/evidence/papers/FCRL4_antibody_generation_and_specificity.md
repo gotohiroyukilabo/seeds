@@ -22,6 +22,8 @@ FcRL4抗体は研究用mAbとして複数報告されているが、治療抗体
 | `413D12` | Wilson et al., J Immunol 2012 | FcRL4安定発現P815細胞でBalb/c免疫、FACSでFcRL4発現細胞特異的クローンを選別 | heat-aggregated IgA結合をブロック。J-chain-linked IgAでの直接競合は未評価 | 少なくともFCRL5とは非交差と記載。全FcRL横断の詳細は限定的 | IgA/J-chain結合面を狙う抗体の最重要陽性対照。dIgA-J競合で再評価すべき |
 | `418C8` | Wilson et al., J Immunol 2012 | `413D12`と同じ免疫・ハイブリドーマ系 | heat-aggregated IgA結合はブロックしない | 詳細不明 | non-blocking対照として有用。結合だけで細胞除去する設計なら比較対照になる |
 | `M-IRTA1` | Falini et al., Blood 2003 | IRTA1/FcRL4の細胞外部分に対するmAb。IHC/WB/IPで検証 | 不明。IgA/J-chain発見前の病理抗体 | IRTA2-5 transfectantではバンドなしと報告 | FFPE病理/IHCに強い可能性。治療抗体候補としては表面細胞結合・リガンド競合が不明 |
+| `A1` | 市販抗体/BD・Thermo・Novus/Bio-Techne | DNA immunization後にCD307d/FCRL4/FcRH4/IRTA1 transfectantでboost | 不明。vendor dataではリガンド競合評価なし | FCRL4/CD307d認識抗体として市販。HLDA/CD designationにも使われたと記載。ただしFcRL1-6全体の横断特異性は不明 | `1A3`とは別物。入手しやすいnative-cell staining referenceとして有用 |
+| `580810` | 市販抗体/R&D Systems・Thermo | NS0由来recombinant human FCRL4/FcRH4 Gln16-Asp385で作製 | 不明。vendor dataではリガンド競合評価なし | direct ELISAでrecombinant human FCRL1との非交差は記載。他のFCRL2/3/5/6は不明 | Flow/CyTOF用の独立市販binder。413D12/A1とのbinning対照として有用 |
 
 ## Reference antibodyの入手性アップデート
 
@@ -36,9 +38,53 @@ FcRL4抗体は研究用mAbとして複数報告されているが、治療抗体
 
 ### 市販代替クローン
 
-`A1`は市販されているが、`1A3`とは別クローンとして扱うべきである。Thermo Fisher `MA574633`、Novus `NBP3-11836`などでunconjugated/標識formatがあり、DNA immunization後にFCRL4/FcRH4/IRTA1 transfectantでboostした抗体と記載されている。HLDAのCD designationに使われたとの記載もあるため、実務上の染色対照としては候補になる。
+`A1`と`580810`は、ここまでの作製論文で出てきたhistorical cloneとは少し性格が異なる。いずれも市販の研究用抗体で、referenceとしての強みは「実際に買いやすい」「FACS/CyTOF panelに組み込みやすい」ことである。一方で、創薬seedとして重要な可変領域配列、詳細エピトープ、J-chain-linked IgAとの競合性、FcRL family横断特異性は十分には公開されていない。
 
-`580810`もR&D Systems/Thermo Fisherから入手できる市販クローンで、NS0-derived recombinant human FCRL4/FcRH4 Gln16-Asp385を免疫原とし、flow用に使える。ただし、FCRL1とのdirect ELISA非交差以外のFcRL family横断特異性やJ-chain競合性は十分には分からない。
+#### `A1` clone
+
+| 項目 | 内容 |
+|---|---|
+| 主な入手先 | Thermo Fisher/Invitrogen `MA574633`、Novus/Bio-Techne `NBP3-11836`、BD Biosciences `566587`など |
+| host/isotype | mouse IgG2a, kappa |
+| 主な用途 | Flow cytometry、IHC-frozen。BD/Novusでは多数の蛍光標識formatもある |
+| 免疫原 | ThermoではDNA immunization後にCD307d-transfected cellsでboost。Novus/Bio-TechneではDNA immunization後にFCRL4/FcRH4/IRTA1-transfected cellsでboost。BDではhuman FCRL4 cDNAと記載 |
+| epitope情報 | Novus/Bio-TechneではFCRL4/FcRH4/IRTA1のextracellular domain内epitopeを認識と記載 |
+| CD designation | Novus/Bio-Techneでは、clone A1がHLDAによるCD designationに使われたと記載。BD製品にもWorkshop Number `IX 23`の記載がある |
+| vendor上の検証 | human lymphocyteでのflow cytometry画像が提示されている |
+| J-chain/IgA競合性 | 不明。J-chain-linked IgAやdIgA coreとのcompetition dataは見当たらない |
+| FcRL family特異性 | 不明。少なくともvendor page上ではFCRL1/2/3/5/6横断の創薬水準データは確認できない |
+
+`A1`は`1A3`と名前が似ているが別クローンである。`1A3`をGenentech由来のhistorical FcRL4-specific cloneとして扱う一方、`A1`は「入手性のよい市販native-cell staining clone」として分けるべきである。DNA/cDNA immunizationとtransfectant boostで得られた抗体なので、recombinant soluble ECDだけで取った抗体よりも、細胞表面native conformationを認識する可能性は高い。ただし、これをもってJ-chain occupied FcRL4に結合できる、またはFCRL5を含む近縁familyと完全に非交差である、とは言えない。
+
+実験上の使いどころは、`413D12`とは別bin候補の染色対照、FCRL4+ B cellのFACS gating確認、患者検体での抗原検出である。FcRL4 x CD3やFcRL4 x CD22のtargeting arm設計を考える場合、`A1`に近いbinは「ligand blockingではなく表面markerとしてFcRL4を拾う」方向の参考になる可能性がある。最初の評価では、`413D12`とのcompetition、dIgA-J存在下でのbinding維持、FCRL1/2/3/5/6単独発現細胞での交差反応確認を必須にする。
+
+#### `580810` clone
+
+| 項目 | 内容 |
+|---|---|
+| 主な入手先 | R&D Systems/Bio-Techne `MAB24262`、Thermo Fisher/Invitrogen `MA5-24262`など |
+| host/isotype | mouse IgG1 |
+| 主な用途 | Flow cytometry、CyTOF-ready。R&D/Bio-Techneではunconjugatedのほか、Alexa Fluor、APC/Cy7、Biotin、CoraFluor、DyLight、HRP、PEなど多数formatがある |
+| 免疫原 | NS0-derived recombinant human FCRL4/FcRH4 Gln16-Asp385、accession `NP_112572` |
+| vendor上の検証 | RPMI 8226 human multiple myeloma cell lineでflow cytometry画像が提示されている |
+| 特異性 | direct ELISAでhuman FCRL4/FcRH4を検出し、recombinant human FCRL1との交差反応なしと記載 |
+| J-chain/IgA競合性 | 不明。J-chain-linked IgA、dIgA core、secretory componentとのcompetition dataは見当たらない |
+| FcRL family特異性 | FCRL1との非交差は記載あり。ただしFCRL2/3/5/6を含む横断検証は不明 |
+
+`580810`は、recombinant ECD免疫で得られた市販cloneとして扱うのがよい。免疫原のGln16-Asp385はFCRL4の細胞外領域を広く含むため、理屈の上ではJ-chain interface近傍も別領域も取りうるが、epitopeは公開情報からは分からない。`413D12`がligand blockingの陽性対照であるのに対し、`580810`は「別エピトープかもしれない市販binder」としてbinningに使うのが現実的である。
+
+`580810`の利点は、BSA/carrier-freeのunconjugated品やCyTOF-readyの位置づけがあり、多色flowやmass cytometry panelに組み込みやすい点である。一方、recombinant protein免疫由来なので、primary tissueのnative FcRL4、glycoform、ligand-occupied receptor上での結合性は別途確認が必要である。特にFCRL5交差反応は`2A6`の教訓があるため、FCRL5単独発現細胞で潰すべきである。
+
+#### `A1`と`580810`をreferenceに入れる意味
+
+| 比較軸 | `A1` | `580810` | 実務判断 |
+|---|---|---|---|
+| 入手性 | 高い。BD/Thermo/Novus系で複数format | 高い。R&D/Thermo系で複数format | どちらも`1A3`/`418C8`/`2A6`より現実的 |
+| 免疫原の性格 | DNA/cDNA immunization + transfectant boost | recombinant ECD | `A1`はnative-cell staining寄り、`580810`はECD binder寄り |
+| ligand blocking reference | 不明 | 不明 | blocking陽性対照は引き続き`413D12` |
+| patient sample gating | 有望 | 有望だがRPMI 8226検証中心 | pSS唾液腺/扁桃で両方比較する |
+| BsAb/ADC設計への示唆 | non-blocking targeting arm候補bin探索に有用 | 413D12/A1と異なるbin探索に有用 | 直接seedではなくbinning/assay controlとして使う |
+| 主な弱点 | family横断特異性とJ-chain競合性が不明 | FCRL1以外のfamily交差反応とJ-chain競合性が不明 | FCRL1-6 cell panelとdIgA-J competitionを必須化 |
 
 ### 実務上の推奨reference panel
 
@@ -268,6 +314,9 @@ BioLegendなどの市販RUO抗体は、通常、研究使用に限定され、�
 | pSS唾液腺FcRL4+ B cell上で、IgA-J占有下でも各抗体が結合できるか | 不明 |
 | 治療用ヒト化抗FcRL4抗体/臨床開発品 | 今回の範囲では確認できず |
 | `1A3`、`418C8`、`2A6`の実務的入手性 | 通常カタログ品としては未確認。MTA、発明者、企業、ATCC deposit関連ルートの問い合わせが必要 |
+| `A1`、`580810`の可変領域配列/詳細エピトープ | 公開情報からは不明 |
+| `A1`、`580810`のJ-chain-linked IgA競合性 | 不明。blocking referenceとしては扱わない |
+| `A1`、`580810`のFCRL1-6横断特異性 | `580810`はFCRL1非交差のみvendor記載あり。`A1`を含め、FCRL2/3/5/6への非交差は自前確認が必要 |
 
 ## 参考文献
 
@@ -281,5 +330,8 @@ BioLegendなどの市販RUO抗体は、通常、研究使用に限定され、�
 8. BioLegend `PE anti-human CD307d (FcRL4) clone 413D12` and related formats. [BioLegend product page](https://www.biolegend.com/Default.aspx?ID=6664&productid=5701)
 9. Thermo Fisher `CD307d (FcRL4) Monoclonal Antibody (413D12), APC, eBioscience`. [Product page](https://www.thermofisher.com/antibody/product/CD307d-FcRL4-Antibody-clone-413D12-Monoclonal/17-3079-42)
 10. Washington University Office of Technology Management `Mouse Hybridoma producing IgG2b Monoclonal Antibodies to Human FcRL4`, Tech ID `T-007612`. [Technology summary](https://tech.wustl.edu/tech-summary/mouse-hybridoma-producing-igg2b-monoclonal-antibodies-to-human-fcrl4/)
-11. Novus Biologicals `FCRL4/FcRH4/IRTA1 Antibody (A1) - BSA Free`, `NBP3-11836`. [Product page](https://www.novusbio.com/products/fcrl4-fcrh4-irta1-antibody-a1_nbp3-11836)
-12. R&D Systems/Thermo Fisher `FCRL4/FcRH4 Antibody clone 580810`. [R&D Systems target page](https://www.rndsystems.com/target/fcrl4-fcrh4/antibodies), [Thermo Fisher MA5-24262](https://www.thermofisher.com/antibody/product/FCRL4-Antibody-clone-580810-Monoclonal/MA5-24262)
+11. Thermo Fisher/Invitrogen `FCRL4 Monoclonal Antibody (A1)`, `MA574633`. [Product page](https://www.thermofisher.com/antibody/product/FCRL4-Antibody-clone-A1-Monoclonal/MA574633)
+12. Novus Biologicals/Bio-Techne `FCRL4/FcRH4/IRTA1 Antibody (A1) - BSA Free`, `NBP3-11836`. [Product page](https://www.novusbio.com/products/fcrl4-fcrh4-irta1-antibody-a1_nbp3-11836)
+13. BD Biosciences `Alexa Fluor 647 Mouse Anti-Human CD307d (FCRL4)`, clone `A1`, `566587`. [Product page](https://www.bdbiosciences.com/en-us/products/reagents/flow-cytometry-reagents/research-reagents/single-color-antibodies-ruo/alexa-fluor-647-mouse-anti-human-cd307d-fcrl4.566587)
+14. R&D Systems/Bio-Techne `Human FCRL4/FcRH4 Antibody (580810)`, `MAB24262`. [Product page](https://www.rndsystems.com/products/human-fcrl4-fcrh4-antibody-580810_mab24262)
+15. Thermo Fisher/Invitrogen `FCRL4 Monoclonal Antibody (580810)`, `MA5-24262`. [Product page](https://www.thermofisher.com/antibody/product/FCRL4-Antibody-clone-580810-Monoclonal/MA5-24262)
