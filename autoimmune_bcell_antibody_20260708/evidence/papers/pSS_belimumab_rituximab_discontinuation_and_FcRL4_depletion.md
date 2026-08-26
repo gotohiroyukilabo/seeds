@@ -1,4 +1,4 @@
-# pSSにおけるbelimumab＋rituximab試験の「中止」とFcRL4陽性B細胞除去の比較
+# pSSにおけるbelimumab＋rituximabのPhase III非進行理由とFcRL4陽性B細胞除去の比較
 
 作成日: 2026-08-26
 
@@ -8,8 +8,9 @@
 2. 併用群のbelimumabを24週で中止したのは**プロトコルであらかじめ規定された投与終了**である。目的は、投与終了後も効果が持続するか、B細胞がいつ再構成されるかを52週まで評価することであり、安全性懸念や無効判定による緊急中止ではない。
 3. 個別患者の治療中断は存在した。併用群24例中7例が52週の治療期を完了せず、内訳は有害事象5例、本人による中止1例、効果不十分1例だった。ただし論文は、全体の有害事象および薬剤関連有害事象の発生は群間で概ね同様で、特別に注目すべき重篤感染症はなかったと結論している。
 4. この試験は臨床的有効性差を検出する正式な検出力を持つ試験ではない。併用群では小唾液腺CD20陽性B細胞のほぼ完全な除去、末梢CD19陽性B細胞のより深く持続的な除去、ESSDAIと唾液流量の数値的改善がみられた一方、ESSPRIの明確な差、形質細胞除去、確証的な臨床効果は示していない。したがって、「有効性がなく試験中止」と読むのは不正確である。
-5. FcRL4標的除去の差別化の中心は、belimumab＋rituximabより**深い全B細胞除去**ではなく、導管上皮・リンパ上皮病変に集積するFcRL4陽性B細胞への**病態state選択性**である。ただし、rituximabによる耳下腺FcRL4陽性B細胞減少も報告されているため、「FcRL4陽性細胞はrituximab抵抗性である」とは現時点で言えない。
-6. 開発順序としては、まずFc-active/Fc-tuned抗FcRL4抗体を主案に置き、FcRL4×低親和性CD3 TCEは、Fc依存除去が標的密度、NK/マクロファージ、補体の制約で不十分な場合、または耳下腺腫脹・高度リンパ上皮病変・MALT高リスクなど深い短期resetの必要性が高い患者に限定するのが合理的である。
+5. 成人pSSでPhase IIIへ進まなかった公式理由は公表されていない。公開データから最も確度が高い説明は、安全性中止ではなく、**強い組織B細胞除去を、Phase IIIを正当化する再現性の高い臨床上乗せへ変換できたことを示せなかった**ことである。特にWeek 24・52のESSDAI群間差の95%信頼区間は0をまたぎ、口腔乾燥、ESSPRI、涙腺機能に明確な差がなく、placebo responseと組織baseline不均衡も大きかった。
+6. FcRL4標的除去の差別化の中心は、belimumab＋rituximabより**深い全B細胞除去**ではなく、導管上皮・リンパ上皮病変に集積するFcRL4陽性B細胞への**病態state選択性**である。ただし、rituximabによる耳下腺FcRL4陽性B細胞減少も報告されているため、「FcRL4陽性細胞はrituximab抵抗性である」とは現時点で言えない。
+7. 開発順序としては、まずFc-active/Fc-tuned抗FcRL4抗体を主案に置き、FcRL4×低親和性CD3 TCEは、Fc依存除去が標的密度、NK/マクロファージ、補体の制約で不十分な場合、または耳下腺腫脹・高度リンパ上皮病変・MALT高リスクなど深い短期resetの必要性が高い患者に限定するのが合理的である。
 
 ## 1. 対象試験
 
@@ -41,7 +42,7 @@ ClinicalTrials.govおよびGSKの登録は`Completed`であり、`Terminated`、
 
 当初は約70例を登録し、24週の中間解析とサンプルサイズ再推定により最大120例まで増やす設計だった。実際には脱落を見込み86例が登録されたが、論文は本試験を探索的proof-of-mechanism試験と位置づけ、正式な臨床有効性比較の検出力は持たないとしている。86例で終了したことだけを「futility中止」と解釈する根拠はない。
 
-成人pSSでこの併用を確証するPhase IIIへ進まなかった理由も、今回確認した公開一次資料には明示されていない。後続開発が見えないことと、試験が有害事象または無効で中止されたことは分ける必要がある。
+成人pSSでこの併用を確証するPhase IIIへ進まなかった理由も、今回確認した公開一次資料には明示されていない。後続開発が見えないことと、試験が有害事象または無効で中止されたことは分ける必要がある。非進行理由の根拠評価は第3節に示す。
 
 ### 2.2 併用群でのbelimumab中止
 
@@ -74,9 +75,97 @@ ClinicalTrials.govおよびGSKの登録は`Completed`であり、`Terminated`、
 
 したがって安全性は無視できないが、公開情報からは「特定の安全性シグナルで試験全体を中止した」とは言えない。
 
-## 3. 併用療法が示したものと、残したギャップ
+## 3. なぜ成人pSSのPhase IIIへ進まなかったのか
 
-### 3.1 示したもの
+### 3.1 公式回答と調査結論
+
+**GSKは、成人pSSでPhase IIIへ進まなかった単一の理由を公表していない。** GSKの試験登録、ClinicalTrials.gov、EU Clinical Trials Register、GSKの2018〜2026年の決算・pipeline資料、結果論文を確認したが、「この理由で開発を中止／非継続とした」という記載は見つからなかった。
+
+したがって、以下は分けて扱う必要がある。
+
+- **確認できた事実:** Phase IIは早期中止ではなく完了し、安全性primary endpointのproof-of-mechanism試験だった。薬力学的効果は強かったが、確証的な臨床有効性試験ではなく、主要な患者報告アウトカムで差を示さなかった。成人pSSの後続Phase IIIは2026年8月26日時点で登録されておらず、GSKのQ2 2026 pipelineにも掲載されていない。
+- **確度の高い推論:** Phase IIIを正当化するだけの、placeboおよび各単剤に対する臨床的上乗せの確実性が不足した。
+- **補強的だが直接確認できない推論:** 同じ併用をSLEで検証したPhase III BLISS-BELIEVEの陰性結果が、pSSでの大規模投資判断をさらに弱めた。
+- **公開根拠のない推測:** 特許満了、rituximabの権利関係、商業性、社内portfolio順位のいずれかが単独の中止理由だった、とは公開資料から断定できない。
+
+### 3.2 公開情報の時系列
+
+| 時点 | 公開情報 | Phase III判断への意味 |
+|---|---|---|
+| 2018〜2019年 | GSK投資家資料は、belimumab＋rituximabのpSS試験を`PoC data` milestoneとして掲載 | 当初からregistrational試験ではなく、次段階を判断するproof-of-concept/機序確認の位置づけ |
+| 2020年2月 | GSK FY2019発表は、予備データを社内取得済みとした上で、`Additional data are needed and the study is ongoing`と記載 | 予備データだけでは次段階を決めるのに不十分だったことをGSK自身が明示 |
+| 2020年6月 | Phase IIが86例で完了。EU登録は`Was the trial ended prematurely? No` | 安全性またはfutilityによる試験中止ではない |
+| 2021年5〜6月 | 結果がEU/米国登録に掲載 | 組織B細胞除去は強いが、臨床効果推定の不確実性が大きいdata packageだった |
+| 2021年Q3 | GSKはSLE Phase III BLISS-BELIEVEについて、rituximab追加はbelimumabの有効性を高めなかったと発表 | pSSの直接データではないが、同一併用戦略の臨床的上乗せに対するconfidenceを下げる材料 |
+| 2022年12月 | pSS論文は、より大規模で各単剤に対する臨床的改善を検証する必要があると結論 | 機序仮説は支持されたが、Phase III-readyな有効性確証ではなかった |
+| 2026年8月 | 成人pSSの後続Phase III登録なし。GSK Q2 2026 pipelineにも掲載なし | 開発が実質的に非継続であることは確認できるが、社内の正式理由までは分からない |
+
+一次資料:
+
+- [GSK FY2019 results announcement](https://www.gsk.com/media/lolpnryc/fy-2019-results-announcement.pdf)
+- [GSK study register 201842](https://www.gsk-studyregister.com/trials/201842)
+- [EU Clinical Trials Register 2015-000400-26 results](https://www.clinicaltrialsregister.eu/ctr-search/trial/2015-000400-26/results)
+- [GSK Q3 2021 results announcement](https://www.gsk.com/media/s0moflea/q3-2021-results-announcement.pdf)
+- [GSK pipeline, updated 28 July 2026](https://www.gsk.com/en-gb/innovation/pipeline/)
+
+### 3.3 Phase IIIへ進みにくかったデータ上の理由
+
+#### 1. Phase IIのprimary endpointが臨床有効性ではなかった
+
+本試験のprimary endpointは68週までの有害事象・特別に注目すべき有害事象であり、ESSDAI、唾液流量、乾燥、組織B細胞はsecondary/exploratoryだった。論文は、臨床有効性差を検出するよう正式にpowerされておらず、efficacy endpointについて確証的な仮説検定を行う試験ではなかったと明記している。86例登録のうち68週completerは60例で、placeboは8例、併用は17例だった。
+
+この設計で強い薬力学シグナルが得られても、それだけでは数百例規模のPhase IIIの効果量、分散、endpoint、対象患者を安定して設計できない。
+
+#### 2. 臨床効果は「数値的傾向」が中心で、早期・治療期の不確実性が大きかった
+
+EU登録に記載されたESSDAI LS mean群間差は、登録上の`placebo vs belimumab＋rituximab`表記で、Week 24が-2.45（95% CI -5.67〜0.77）、Week 52が-2.80（-5.95〜0.34）であり、いずれも95%信頼区間が0をまたいだ。Week 68は-3.99（-7.39〜-0.58）だったが、これは68週まで完了したplacebo 8例と併用17例の解析である。また、Week 68でも併用対belimumabおよび併用対rituximabの95%信頼区間は0をまたいだ。
+
+つまり、遅い時点で有望なsignalはあったが、Phase IIIで問われる**placeboおよび単剤に対する再現性の高い上乗せ**は小規模データから確立できなかった。
+
+#### 3. 患者が実感する症状と客観的B細胞除去が一致しなかった
+
+併用は小唾液腺CD20陽性B細胞をほぼ完全に除去し、末梢B細胞も単剤より深く持続的に減少させた。一方、口腔乾燥、ESSPRI total/domain、涙腺機能にはplaceboに対する明確な差がなかった。形質細胞も残った。
+
+この結果は、**target engagementと組織B細胞除去が、患者便益のsurrogateとして十分に検証されていない**ことを示す。2剤併用の投与負担と免疫抑制を正当化するには、単なるB細胞除去の深さより明瞭な症状・臓器便益が必要だったと考えるのが妥当である。
+
+#### 4. placebo responseと患者・組織の不均一性がPhase III endpoint riskを高めた
+
+論文はESSDAIの高いplacebo responseを明記している。post hoc CRESSでもWeek 24の反応率は併用52.9%に対しplacebo 50.0%だった。また、baselineの胚中心を含むfocus割合、minor salivary glandのlymphocytic focus score、総B細胞数に不均衡・大きなばらつきがあり、stimulated salivary flowも併用群でbaselineが高かった。
+
+この状態では、対象患者を増やすだけでsignalが安定する保証がなく、ESSDAI、ESSPRI、CRESS、STARのどれをregistrational endpointにするか、どの組織phenotypeをenrichするかという追加の開発課題が残る。
+
+#### 5. 同一併用のSLE Phase IIIが、薬力学と臨床上乗せの乖離を再現した
+
+BLISS-BELIEVEでは、Week 52のdisease controlがbelimumab＋placebo 16.7%に対しbelimumab＋rituximab 19.4%で、OR 1.27（95% CI 0.60〜2.71）、p=0.5342だった。抗dsDNA抗体やB細胞subsetはより低下したが、primary endpointと主要secondary endpointでsuperiorityを示さなかった。GSK自身も「rituximabの追加はBenlystaの有効性を高めなかった」と発表した。
+
+これはpSS試験完了後の別疾患データであり、pSS Phase III非進行の直接理由だと証明はできない。ただし、**深いB細胞薬理が2剤併用の臨床的上乗せを保証しない**という同じ開発リスクを示したため、非進行判断を補強した可能性は中程度に高い。
+
+- [BLISS-BELIEVE Phase III publication](https://pmc.ncbi.nlm.nih.gov/articles/PMC11503042/)
+
+### 3.4 総合判定
+
+| 仮説 | 判定 | 根拠の強さ |
+|---|---|---|
+| 安全性問題でPhase IIIに進めなかった | 主因とは考えにくい | 高。試験は早期中止されず、安全性は既知profileと整合 |
+| Phase IIが正式なprimary efficacy endpointに失敗した | 不正確 | 高。primary endpointは安全性で、efficacyは探索的 |
+| Phase IIIを正当化する臨床上乗せの確実性が不足した | **最も妥当** | 高。早期ESSDAI CI、PRO不変、高placebo response、baseline不均衡、単剤との差の不確実性 |
+| SLE Phase III陰性がpSS非進行を後押しした | 可能性あり | 中。時系列と同一併用の結果は整合するが、GSKの直接説明なし |
+| 特許・商業性・rituximab権利関係が主因 | 不明 | 低。直接資料なし |
+
+結論として、「Phase IIが失敗して中止」ではない。より正確には、**機序確認には成功したが、2剤併用でPhase IIIへ賭けるための臨床的差別化とendpointの確度が不足し、後続開発が実質的に進まなかった**と整理するのが妥当である。
+
+### 3.5 FcRL4プログラムへの直接的な教訓
+
+FcRL4抗体も、腺内FcRL4陽性B細胞を深く除去しただけでは同じ壁に当たる。Phase II段階で次を同時に示す必要がある。
+
+1. FcRL4-high、リンパ上皮病変陽性、反復性耳下腺腫脹など、薬理signalが臨床便益へつながりやすい患者の事前enrichment。
+2. 組織FcRL4陽性B細胞減少と、ESSDAI/ClinESSDAI、STAR/CRESS、唾液機能、患者報告症状のdose-responseまたは個体内相関。
+3. rituximabまたは妥当なB細胞標的治療benchmarkに対し、全B細胞を広く除去せずに同等以上の病変改善を出すこと。
+4. FcRL4抗体単独での効果が弱い場合にのみTCEへ進み、より深い除去の上乗せがcytokine・上皮傷害リスクを上回る患者層を明確にすること。
+
+## 4. 併用療法が示したものと、残したギャップ
+
+### 4.1 示したもの
 
 - 併用群では、24週の小唾液腺CD20陽性B細胞がほぼ完全に除去された。
 - 末梢CD19陽性B細胞の除去は単剤より深く、再構成もrituximab単独より遅れた。
@@ -84,7 +173,7 @@ ClinicalTrials.govおよびGSKの登録は`Completed`であり、`Terminated`、
 - rituximab後のfree BLyS上昇がbelimumab投与中は抑えられ、再構成期の自己反応性B細胞選択を厳しくする薬理仮説と整合した。
 - ESSDAIは併用群でbaseline 11.0から68週5.0、placeboで10.4から8.6となり、併用群を支持する数値的傾向がみられた。
 
-### 3.2 残したギャップ
+### 4.2 残したギャップ
 
 1. **確証的有効性ではない。** 臨床有効性比較に正式にpowerされておらず、placebo responseも大きかった。
 2. **患者報告症状との乖離。** ESSPRI totalではactive treatmentとplaceboの明確な差がなかった。組織B細胞除去が乾燥、疲労、疼痛にそのまま結びつくとは限らない。
@@ -93,9 +182,9 @@ ClinicalTrials.govおよびGSKの登録は`Completed`であり、`Terminated`、
 5. **2剤・長期投与の負担。** 週1回belimumabを24週、rituximabを2回投与する設計で、投与、コスト、感染・低Ig監視が複雑になる。
 6. **組織解析の限界。** 組織評価は小唾液腺中心で、baselineのB細胞数、胚中心、組織構造に群間差と大きなばらつきがあった。FcRL4陽性B細胞がより多い耳下腺を十分代表しない可能性もある。
 
-## 4. FcRL4陽性B細胞除去で何を変えられる可能性があるか
+## 5. FcRL4陽性B細胞除去で何を変えられる可能性があるか
 
-### 4.1 差別化の本体
+### 5.1 差別化の本体
 
 pSS唾液腺のFcRL4陽性B細胞は、導管上皮に密接してリンパ上皮病変を形成し、耳下腺に小唾液腺より多く、pSS関連耳下腺MALTリンパ腫でもFcRL4発現が上昇していた。別の転写解析では、FcRL4陰性B細胞に比べCD11c、T-bet、TACI、Src kinase、NF-κB、細胞周期・代謝経路が上昇し、慢性活性化・炎症性stateを示した。
 
@@ -107,7 +196,7 @@ pSS唾液腺のFcRL4陽性B細胞は、導管上皮に密接してリンパ上�
 
 ただし、これらは臨床未証明の仮説である。FcRL4は正常MALT・粘膜B細胞の一部にも発現するため、「病変だけに存在する抗原」ではない。
 
-### 4.2 言い過ぎてはいけない点
+### 5.2 言い過ぎてはいけない点
 
 - **FcRL4陽性B細胞はrituximabで除去できない、とは言えない。** Haackeらはrituximab後の耳下腺FcRL4陽性B細胞減少と腺上皮回復を報告している。
 - **belimumab＋rituximabより深く組織B細胞を除去できる、とはまだ言えない。** 併用群は小唾液腺CD20陽性B細胞をほぼ完全に除去している。
@@ -121,7 +210,7 @@ pSS唾液腺のFcRL4陽性B細胞は、導管上皮に密接してリンパ上�
 - [Haacke et al., FcRL4+ B-cells in salivary glands of pSS patients, J Autoimmun 2017](https://pubmed.ncbi.nlm.nih.gov/28390747/)
 - [Verstappen et al., Gene expression profiling of epithelium-associated FcRL4+ B cells, J Autoimmun 2020](https://pubmed.ncbi.nlm.nih.gov/32201227/)
 
-## 5. 3つの除去法の比較
+## 6. 3つの除去法の比較
 
 | 論点 | Belimumab＋rituximab | Fc-active抗FcRL4 | FcRL4×CD3 TCE |
 |---|---|---|---|
@@ -136,7 +225,7 @@ pSS唾液腺のFcRL4陽性B細胞は、導管上皮に密接してリンパ上�
 | 投与 | 2剤、belimumab長期＋rituximab | 1剤化しやすい | 1剤だがstep-up、入院/監視が必要になり得る |
 | 臨床根拠 | Phase II完了 | 治療抗体として臨床根拠なし | 治療抗体として臨床根拠なし |
 
-## 6. Fc-active抗FcRL4: ADCC/CDC除去の評価
+## 7. Fc-active抗FcRL4: ADCC/CDC除去の評価
 
 ### 期待できる違い
 
@@ -165,7 +254,7 @@ pSS唾液腺のFcRL4陽性B細胞は、導管上皮に密接してリンパ上�
 
 慢性pSSでは、補体による局所炎症を増やす可能性があるため、CDC強化を最初から最優先にするより、**ADCC/ADCPを主軸、CDCを比較枝**とする方が安全性上は合理的である。
 
-## 7. FcRL4×CD3 TCEの評価
+## 8. FcRL4×CD3 TCEの評価
 
 ### 期待できる違い
 
@@ -189,7 +278,7 @@ pSS唾液腺のFcRL4陽性B細胞は、導管上皮に密接してリンパ上�
 - CD3高親和性やCD28 costimulationの追加は、pSSの初期案では優先しない。
 - TCEは一般的な乾燥主体pSSではなく、FcRL4-high、組織B-cell-high、難治性またはMALT-riskの狭い集団から検討する。
 
-## 8. 推奨する開発戦略
+## 9. 推奨する開発戦略
 
 ### 優先順位
 
@@ -218,7 +307,7 @@ pSS唾液腺のFcRL4陽性B細胞は、導管上皮に密接してリンパ上�
 7. rituximab
 8. BAFF存在下のrituximab、および可能ならbelimumab前処置＋rituximab相当条件
 
-## 9. 最初に潰すべき実験
+## 10. 最初に潰すべき実験
 
 | 論点 | 実験 | 判断 |
 |---|---|---|
@@ -233,7 +322,7 @@ pSS唾液腺のFcRL4陽性B細胞は、導管上皮に密接してリンパ上�
 
 特に重要なのは、**rituximab後またはbelimumab＋rituximab後にFcRL4陽性B細胞がどの程度残るか**である。残存しない場合、FcRL4抗体の価値は「より深い除去」ではなく「より狭い除去による安全性・投与負担の改善」に限定される。
 
-## 10. 開発判断
+## 11. 開発判断
 
 ### Fc-active抗FcRL4をGoとする条件
 
@@ -260,5 +349,7 @@ pSS唾液腺のFcRL4陽性B細胞は、導管上皮に密接してリンパ上�
 ## 結論
 
 NCT02631538は中止試験ではなく、計画どおり完了した安全性・proof-of-mechanism Phase II試験である。belimumabの24週中止は効果持続とB細胞再構成を調べるプロトコル規定で、併用群の個別中断は主として有害事象5例を含む7/24例だったが、特定の毒性で試験全体が止まったという事実はない。
+
+成人pSSのPhase IIIへ進まなかった公式理由は公表されていない。公開情報から最も妥当なのは、強い組織・末梢B細胞除去を示した一方、Week 24・52のESSDAI差、患者報告症状、単剤に対する上乗せ、Phase III endpointの再現性に十分な確度が得られなかった、という説明である。同一併用のSLE Phase III陰性はこの判断を補強した可能性があるが、直接の社内理由と断定はできない。
 
 この試験との比較でFcRL4抗体が出すべき違いは、除去の絶対的な深さではなく、**FcRL4陽性の上皮近傍・リンパ上皮病変B細胞に除去を集中し、FcRL4陰性B細胞を温存できるか**である。まずFc-active/Fc-tuned単独抗体でこの選択性を検証し、組織エフェクター不足で除去が浅い場合、またはMALT-riskなど深いresetが必要な患者に限ってFcRL4×low-affinity CD3 TCEへ進むのが、現時点で最もリスク調整された開発順序である。
